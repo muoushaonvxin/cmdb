@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0024)http://admin.518fax.net/ -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>用户登录</TITLE><LINK 
+href="/static/css/login/User_Login.css" type=text/css rel=stylesheet>
+
+
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META content="MSHTML 6.00.6000.16809" name=GENERATOR></HEAD>
+<BODY id=userlogin_body>
+<FORM id=theform name=theform action="/user_login/"
+method=post><INPUT type=hidden value=login name=action> <INPUT id=logintype 
+type=hidden name=logintype> 
+<DIV id=panSiteFactory>
+<DIV id=siteFactoryLogin>
+<DIV id=user_login>
+<DL>
+  <DD id=user_top>
+  <UL>
+    <LI class=user_top_l></LI>
+    <LI class=user_top_c></LI>
+    <LI class=user_top_r></LI></UL>
+  <DD id=user_main>
+  <UL>
+    <LI class=user_main_l></LI>
+    <LI class=user_main_c>
+    <DIV class=user_main_box>
+    <UL>
+      <LI class=user_main_text>用户名： </LI>
+      <LI class=user_main_input><INPUT class=TxtUserNameCssClass id=account 
+      maxLength=20 name=username> </LI></UL>
+    <UL>
+      <LI class=user_main_text>密 码： </LI>
+      <LI class=user_main_input><INPUT class=TxtPasswordCssClass id=password 
+      type=password name=password>  </LI></UL>
+    <UL>
+      </LI></UL></DIV></LI>
+    <LI class=user_main_r>
+        <input type="submit">
+    </LI></UL></LI>
+  </DL></DIV></DIV></DIV></FORM>
+<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+<script src="" type="text/javascript">
+    function doLogin() {
+        $('#theform').submit();
+    }
+</script>
+</BODY></HTML>

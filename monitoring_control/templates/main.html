@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+{% load staticfiles %}
+    <head>
+        <meta charset="UTF-8">
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
+        <script src="{% static 'js/jquery.min.js' %}" type="text/javascript"></script>
+        <script src="{% static 'js/jquery-migrate-1.2.1.min.js' %}" type="text/javascript"></script>
+    </head>
+    <body>
+
+        <div class="top">
+            <div class="wp">
+                <!--登录后跳转-->
+                {% if request.user.is_authenticated %}
+          
+                    <div class="main">
+                        <a href="">仪表盘</a>
+                    </div>
+
+                    <div class="ops">
+                        <a href="/cmdb/page/main/">资产记录</a>
+                    </div>
+                    
+                    <div class="monitor">
+                        <a href="/monitor/page/control/">监控系统</a>
+                    </div>
+
+                    <div class="personal">
+                        <div class="userdetail">
+                            <dl>
+                                <dd>
+                                    <p>{{ request.user.username }}</p>
+                                </dd>
+                            </dl>
+                            <div class="btn">
+                                <a class="fr" href="{% url 'user_logout' %}">退出</a>
+                            </div>
+                        </div>
+                    </div>
+
+                {% else %}
+
+                    <a class="fr loginbtn" href="{% url 'user_login' %}">您还没有登录,请先登录</a>
+
+                {% endif %}
+
+            </div>
+        </div>
+
+    </body>
+
+    <style type="text/css">
+        .main {
+            float: left;
+            width: 80px;
+        }
+
+        .ops {
+            float: left;
+            width: 100px;
+        }
+
+        .monitor {
+            float: left;
+            width: 80px;
+        }
+
+        .personal {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #F00;
+            background-color: #CF9;
+            float: right;
+        }
+    </style>
+</html>

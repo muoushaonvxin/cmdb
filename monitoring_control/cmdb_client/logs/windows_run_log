@@ -1,0 +1,946 @@
+2017-11-05-15:02:32	INFO	{'NewComponentAdded': "Asset[id:1 name:web服务器01] --> has added new [cpu] component with data [{'cpu_core_count': 2, 'cpu_count': 1, 'cpu_model': 'Intel(R) Core(TM) i7-3537U CPU @ 2.00GHz', 'asset_id': 1}]"}
+2017-11-05-15:02:32	INFO	{'NewAssetOnline': "Asset [<a href='/admin/assets/asset/1/' target='_blank'>id:1 name:web服务器01</a>] has been created!"}
+2017-11-05-15:02:32	ERROR	{'LackOfField': "The field [slot] has no value provided in your reporting data [{'sn': '      JD1000193BRAPA', 'manufactory': '(标准磁盘驱动器)', 'iface_type': 'SAS', 'model': 'HGST HTS541010A9E680', 'slot': 0, 'capacity': 931.510956287384}]"}
+2017-11-05-15:04:34	INFO	{'NewComponentAdded': "Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{'name': 12, 'sn': None, 'model': '[00000012] WAN Miniport (IP)', 'asset_id': 1, 'macaddress': '9C:62:20:52:41:53'}]"}
+2017-11-05-15:04:34	INFO	{'NewComponentAdded': "Asset[id:1 name:web服务器01] --> component[RAM] has justed added a new item [{'sn': '17169ACB', 'asset_id': 1, 'capacity': 8192.0, 'model': '物理内存', 'slot': 'ChannelB-DIMM0'}]"}
+2017-11-05-15:04:34	ERROR	{'AddingComponentException': 'Asset[id:1 name:web服务器01] --> component[NIC] has error: ["’Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{\'name\': 12, \'sn\': None, \'model\': \'[00000012] WAN Miniport (IP)\', \'asset_id\': 1, \'macaddress\': \'9C:62:20:52:41:53\'}]‘ 必须为合法的日期时间格式，请使用 YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] 格式。"]'}
+2017-11-05-15:04:34	ERROR	{'AddingComponentException': 'Asset[id:1 name:web服务器01] --> component[RAM] has error: ["’Asset[id:1 name:web服务器01] --> component[RAM] has justed added a new item [{\'sn\': \'17169ACB\', \'asset_id\': 1, \'capacity\': 8192.0, \'model\': \'物理内存\', \'slot\': \'ChannelB-DIMM0\'}]‘ 必须为合法的日期时间格式，请使用 YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] 格式。"]'}
+2017-11-05-15:04-34	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:04-34	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:04-34	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:04-34	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:04-34	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:04-34	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:05:01	INFO	{'NewComponentAdded': "Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{'name': 13, 'sn': None, 'model': '[00000013] WAN Miniport (IPv6)', 'asset_id': 1, 'macaddress': '66:A4:20:52:41:53'}]"}
+2017-11-05-15:05:01	ERROR	{'AddingComponentException': 'Asset[id:1 name:web服务器01] --> component[NIC] has error: ["’Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{\'name\': 13, \'sn\': None, \'model\': \'[00000013] WAN Miniport (IPv6)\', \'asset_id\': 1, \'macaddress\': \'66:A4:20:52:41:53\'}]‘ 必须为合法的日期时间格式，请使用 YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] 格式。"]'}
+2017-11-05-15:05-01	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:05-01	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:05-01	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:05-01	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:05-01	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:05-01	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:05-01	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:05-01	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:05-01	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:05-01	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:05:35	INFO	{'NewComponentAdded': "Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{'name': 14, 'sn': None, 'model': '[00000014] WAN Miniport (Network Monitor)', 'asset_id': 1, 'macaddress': '12:19:20:52:41:53'}]"}
+2017-11-05-15:05:35	ERROR	{'AddingComponentException': 'Asset[id:1 name:web服务器01] --> component[NIC] has error: ["’Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{\'name\': 14, \'sn\': None, \'model\': \'[00000014] WAN Miniport (Network Monitor)\', \'asset_id\': 1, \'macaddress\': \'12:19:20:52:41:53\'}]‘ 必须为合法的日期时间格式，请使用 YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] 格式。"]'}
+2017-11-05-15:05-35	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:05-35	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:05-35	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:05-35	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:05-35	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:05-35	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:05-35	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:05-35	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:05-35	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:05-35	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:05-35	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:05-35	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:05-35	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:05-35	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:05:46	INFO	{'NewComponentAdded': "Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{'name': 15, 'sn': None, 'model': '[00000015] Mediatek MT7630E 802.11bgn Wi-Fi Adapter', 'asset_id': 1, 'macaddress': '54:35:30:BC:B6:C3'}]"}
+2017-11-05-15:05:46	ERROR	{'AddingComponentException': 'Asset[id:1 name:web服务器01] --> component[NIC] has error: ["’Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{\'name\': 15, \'sn\': None, \'model\': \'[00000015] Mediatek MT7630E 802.11bgn Wi-Fi Adapter\', \'asset_id\': 1, \'macaddress\': \'54:35:30:BC:B6:C3\'}]‘ 必须为合法的日期时间格式，请使用 YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] 格式。"]'}
+2017-11-05-15:05-46	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:05-46	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:05-46	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:05-46	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:05-46	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:05-46	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:05-46	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:05-46	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:05-46	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:05-46	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:05-46	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:05-46	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:05-46	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:05-46	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:05-46	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:05-46	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:05-46	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:05-46	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:06:17	INFO	{'NewComponentAdded': "Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{'name': 16, 'sn': None, 'model': '[00000016] Microsoft Hosted Network Virtual Adapter', 'asset_id': 1, 'macaddress': '54:35:30:BC:B6:C4'}]"}
+2017-11-05-15:06:17	ERROR	{'AddingComponentException': 'Asset[id:1 name:web服务器01] --> component[NIC] has error: ["’Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{\'name\': 16, \'sn\': None, \'model\': \'[00000016] Microsoft Hosted Network Virtual Adapter\', \'asset_id\': 1, \'macaddress\': \'54:35:30:BC:B6:C4\'}]‘ 必须为合法的日期时间格式，请使用 YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] 格式。"]'}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:06-17	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:06:34	INFO	{'NewComponentAdded': "Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{'name': 17, 'sn': None, 'model': '[00000017] Microsoft Wi-Fi Direct Virtual Adapter', 'asset_id': 1, 'macaddress': '54:35:30:BC:B6:C5'}]"}
+2017-11-05-15:06:34	ERROR	{'AddingComponentException': 'Asset[id:1 name:web服务器01] --> component[NIC] has error: ["’Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{\'name\': 17, \'sn\': None, \'model\': \'[00000017] Microsoft Wi-Fi Direct Virtual Adapter\', \'asset_id\': 1, \'macaddress\': \'54:35:30:BC:B6:C5\'}]‘ 必须为合法的日期时间格式，请使用 YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] 格式。"]'}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:06-34	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:06:42	INFO	{'NewComponentAdded': "Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{'name': 18, 'sn': None, 'model': '[00000018] Realtek PCIe GBE Family Controller', 'asset_id': 1, 'macaddress': '78:24:AF:74:DC:15'}]"}
+2017-11-05-15:06:42	ERROR	{'AddingComponentException': 'Asset[id:1 name:web服务器01] --> component[NIC] has error: ["’Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{\'name\': 18, \'sn\': None, \'model\': \'[00000018] Realtek PCIe GBE Family Controller\', \'asset_id\': 1, \'macaddress\': \'78:24:AF:74:DC:15\'}]‘ 必须为合法的日期时间格式，请使用 YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] 格式。"]'}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:06-42	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:06:49	INFO	{'NewComponentAdded': "Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{'name': 20, 'sn': None, 'model': '[00000020] VMware Virtual Ethernet Adapter for VMnet2', 'asset_id': 1, 'macaddress': '00:50:56:C0:00:02'}]"}
+2017-11-05-15:06:49	ERROR	{'AddingComponentException': 'Asset[id:1 name:web服务器01] --> component[NIC] has error: ["’Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{\'name\': 20, \'sn\': None, \'model\': \'[00000020] VMware Virtual Ethernet Adapter for VMnet2\', \'asset_id\': 1, \'macaddress\': \'00:50:56:C0:00:02\'}]‘ 必须为合法的日期时间格式，请使用 YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] 格式。"]'}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:06-49	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:07:16	INFO	{'NewComponentAdded': "Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{'name': 22, 'sn': None, 'model': '[00000022] VMware Virtual Ethernet Adapter for VMnet3', 'asset_id': 1, 'macaddress': '00:50:56:C0:00:03'}]"}
+2017-11-05-15:07:16	ERROR	{'AddingComponentException': 'Asset[id:1 name:web服务器01] --> component[NIC] has error: ["’Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{\'name\': 22, \'sn\': None, \'model\': \'[00000022] VMware Virtual Ethernet Adapter for VMnet3\', \'asset_id\': 1, \'macaddress\': \'00:50:56:C0:00:03\'}]‘ 必须为合法的日期时间格式，请使用 YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] 格式。"]'}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:07-16	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:07:51	INFO	{'NewComponentAdded': "Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{'model': '[00000028] VMware Virtual Ethernet Adapter for VMnet4', 'macaddress': '00:50:56:C0:00:04', 'sn': None, 'name': 28, 'asset_id': 1}]"}
+2017-11-05-15:07:51	ERROR	{'AddingComponentException': 'Asset[id:1 name:web服务器01] --> component[NIC] has error: ["’Asset[id:1 name:web服务器01] --> component[NIC] has justed added a new item [{\'model\': \'[00000028] VMware Virtual Ethernet Adapter for VMnet4\', \'macaddress\': \'00:50:56:C0:00:04\', \'sn\': None, \'name\': 28, \'asset_id\': 1}]‘ 必须为合法的日期时间格式，请使用 YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] 格式。"]'}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:08], component data is missing in reporting data!'}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [9C:62:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [66:A4:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [12:19:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C3], component data is missing in reporting data!'}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C4], component data is missing in reporting data!'}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C5], component data is missing in reporting data!'}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [78:24:AF:74:DC:15], component data is missing in reporting data!'}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:02], component data is missing in reporting data!'}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:03], component data is missing in reporting data!'}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelA-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelB-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:07-51	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:08], component data is missing in reporting data!'}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [9C:62:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [66:A4:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [12:19:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C3], component data is missing in reporting data!'}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C4], component data is missing in reporting data!'}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C5], component data is missing in reporting data!'}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [78:24:AF:74:DC:15], component data is missing in reporting data!'}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:02], component data is missing in reporting data!'}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:03], component data is missing in reporting data!'}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:04], component data is missing in reporting data!'}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelA-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelB-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:08-21	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:08], component data is missing in reporting data!'}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [9C:62:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [66:A4:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [12:19:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C3], component data is missing in reporting data!'}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C4], component data is missing in reporting data!'}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C5], component data is missing in reporting data!'}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [78:24:AF:74:DC:15], component data is missing in reporting data!'}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:02], component data is missing in reporting data!'}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:03], component data is missing in reporting data!'}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:04], component data is missing in reporting data!'}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelA-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelB-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:08-33	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:08], component data is missing in reporting data!'}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [9C:62:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [66:A4:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [12:19:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C3], component data is missing in reporting data!'}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C4], component data is missing in reporting data!'}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C5], component data is missing in reporting data!'}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [78:24:AF:74:DC:15], component data is missing in reporting data!'}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:02], component data is missing in reporting data!'}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:03], component data is missing in reporting data!'}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:04], component data is missing in reporting data!'}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelA-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelB-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:08-40	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:08], component data is missing in reporting data!'}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [9C:62:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [66:A4:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [12:19:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C3], component data is missing in reporting data!'}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C4], component data is missing in reporting data!'}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C5], component data is missing in reporting data!'}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [78:24:AF:74:DC:15], component data is missing in reporting data!'}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:02], component data is missing in reporting data!'}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:03], component data is missing in reporting data!'}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:04], component data is missing in reporting data!'}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelA-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelB-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:08-50	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:08], component data is missing in reporting data!'}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [9C:62:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [66:A4:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [12:19:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C3], component data is missing in reporting data!'}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C4], component data is missing in reporting data!'}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C5], component data is missing in reporting data!'}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [78:24:AF:74:DC:15], component data is missing in reporting data!'}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:02], component data is missing in reporting data!'}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:03], component data is missing in reporting data!'}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:04], component data is missing in reporting data!'}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelA-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelB-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:08-57	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:08], component data is missing in reporting data!'}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [9C:62:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [66:A4:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [12:19:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C3], component data is missing in reporting data!'}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C4], component data is missing in reporting data!'}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C5], component data is missing in reporting data!'}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [78:24:AF:74:DC:15], component data is missing in reporting data!'}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:02], component data is missing in reporting data!'}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:03], component data is missing in reporting data!'}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:04], component data is missing in reporting data!'}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelA-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelB-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:09-32	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:08], component data is missing in reporting data!'}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [9C:62:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [66:A4:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [12:19:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C3], component data is missing in reporting data!'}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C4], component data is missing in reporting data!'}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C5], component data is missing in reporting data!'}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [78:24:AF:74:DC:15], component data is missing in reporting data!'}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:02], component data is missing in reporting data!'}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:03], component data is missing in reporting data!'}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:04], component data is missing in reporting data!'}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelA-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelB-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:09-40	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:08], component data is missing in reporting data!'}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [9C:62:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [66:A4:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [12:19:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C3], component data is missing in reporting data!'}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C4], component data is missing in reporting data!'}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C5], component data is missing in reporting data!'}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [78:24:AF:74:DC:15], component data is missing in reporting data!'}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:02], component data is missing in reporting data!'}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:03], component data is missing in reporting data!'}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:04], component data is missing in reporting data!'}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelA-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelB-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:09-47	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:08], component data is missing in reporting data!'}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [9C:62:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [66:A4:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [12:19:20:52:41:53], component data is missing in reporting data!'}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C3], component data is missing in reporting data!'}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C4], component data is missing in reporting data!'}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [54:35:30:BC:B6:C5], component data is missing in reporting data!'}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [78:24:AF:74:DC:15], component data is missing in reporting data!'}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:02], component data is missing in reporting data!'}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:03], component data is missing in reporting data!'}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [00:50:56:C0:00:04], component data is missing in reporting data!'}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelA-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [ChannelB-DIMM0], component data is missing in reporting data!'}
+2017-11-05-15:13-56	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:14-44	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:14-52	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:15-01	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:20-42	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [netmask] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [sn] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [bonding] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-15:20-52	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [name] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [sn] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:08]'s field [bonding] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:9C:62:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:66:A4:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [sn] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [netmask] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:12:19:20:52:41:53]'s field [bonding] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [sn] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C3]'s field [bonding] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [sn] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [netmask] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C4]'s field [bonding] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [sn] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [netmask] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:54:35:30:BC:B6:C5]'s field [bonding] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [sn] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [ipaddress] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [netmask] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:78:24:AF:74:DC:15]'s field [bonding] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [sn] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:02]'s field [bonding] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [sn] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:03]'s field [bonding] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [sn] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [1:00:50:56:C0:00:04]'s field [bonding] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [disk_set]'s key field [slot] is not provided in reporting data"}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': 'Cannot find any matches in source data by using key field val [0], component data is missing in reporting data!'}
+2017-11-05-17:31-59	WARNING	{'AssetUpdateWarning': "Asset component [web服务器01 sn:00330-80000-00000-AA226]'s field [raid_type] is not provided in reporting data"}

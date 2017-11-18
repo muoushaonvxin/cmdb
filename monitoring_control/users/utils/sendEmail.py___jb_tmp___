@@ -1,0 +1,6 @@
+# -*- encoding: utf-8 -*-
+from random import Random
+from users.models import EmailVerifyRecord
+
+def random_str(randomlength=8):
+    str = ''
