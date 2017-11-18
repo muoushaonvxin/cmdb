@@ -3,7 +3,6 @@ from django.core.exceptions import ObjectDoesNotExist
 from cmdb import models
 from django.utils import timezone
 from users.models import UserProfile
-from datetime import datetime
 
 class Asset(object):
 
@@ -65,9 +64,7 @@ class Asset(object):
                     response = {'asset_id': self.asset_obj.id}
                 else:
                     if hasattr(self, 'waiting_approval'):
-                        response = {
-                            'needs_aproval': "this is a new asset,needs IT admin's approval to create the new asset id."
-                        }
+                        response = {'needs_aproval': "this is a new asset,needs IT admin's approval to create the new asset id."}
                         self.clean_data = data
                         self.save_new_asset_to_approval_zone()
                         print(response)
@@ -211,7 +208,8 @@ class Asset(object):
         elif required == True:
             self.response_msg('error',
                               'LackOfField',
-                              "The field [%s] has no value provided in your reporting data [%s]" % (field_key, data_set))
+                              "The field [%s] has no value provided in your reporting data [%s]" % (field_key, data_set)
+                              )
 
     def create_asset(self):
         '''
@@ -579,15 +577,24 @@ class Asset(object):
                 obj = model_class(**data_set)
                 obj.save()
                 print('\033[32;1mCreated component with data:\033[0m', data_set)
-                log_msg = "Asset[%s] --> component[%s] has justed added a new item [%s]" % (
-                    self.asset_obj, model_obj_name, data_set)
-                self.response_msg('info', 'NewComponentAdded', log_msg)
+                log_msg = "Asset[%s] --> component[%s] has justed added a new item [%s]" % (self.asset_obj,
+                                                                                            model_obj_name,
+                                                                                            data_set
+                                                                                            )
+
+                self.response_msg('info',
+                                  'NewComponentAdded',
+                                  log_msg
+                                  )
                 log_handler(self.asset_obj, 'NewComponentAdded', self.request.user, log_msg, model_obj_name)
 
         except Exception as e:
             print("\033[31;1m %s \033[0m" % e)
             log_msg = "Asset[%s] --> component[%s] has error: %s" % (self.asset_obj, model_obj_name, str(e))
-            self.response_msg('error', "AddingComponentException", log_msg)
+            self.response_msg('error',
+                              "AddingComponentException",
+                              log_msg
+                              )
 
     def __delete_components(self, all_components, delete_list, identify_field):
         '''All the objects in delete list will be deleted from DB'''
@@ -624,41 +631,32 @@ class Asset(object):
 
                 if val_from_db == val_from_data_source:  # this field haven't changed since last update
                     pass
-                    # print '\033[32;1m val_from_db[%s]  == val_from_data_source[%s]\033[0m' %(val_from_db,val_from_data_source)
                 else:
                     print('\033[34;1m val_from_db[%s]  != val_from_data_source[%s]\033[0m' % (val_from_db,
                                                                                               val_from_data_source),
                                                                                               type(val_from_db),
                                                                                               type(val_from_data_source),
-                                                                                              field)
+                                                                                              field
+                          )
 
-                    try:
-                        db_field = model_obj._meta.get_field(field)
-                        db_field.save_form_data(model_obj, val_from_data_source)
-                        model_obj.update_date = timezone.now()
-                        model_obj.save()
-                    except Exception as e:
-                        print(e)
-
-                    print("-"*30)
-                    # print(model_obj.field)
-
-                    # model_obj[field] = val_from_data_source
-                    # model_obj['update_date'] = datetime.time()
-                    # model_obj.save()
+                    db_field = model_obj._meta.get_field(field)
+                    db_field.save_form_data(model_obj, val_from_data_source)
+                    model_obj.update_date = timezone.now()
+                    model_obj.save()
 
                     log_msg = "Asset[%s] --> component[%s] --> field[%s] has changed from [%s] to [%s]" % (self.asset_obj,
                                                                                                            model_obj,
                                                                                                            field,
                                                                                                            val_from_db,
-                                                                                                           val_from_data_source)
+                                                                                                           val_from_data_source
+                                                                                                           )
 
                     self.response_msg('info',
                                       'FieldChanged',
                                       log_msg
                                       )
 
-                    log_handler(self.asset_obj, 'FieldChanged', self.request.user, log_msg, model_obj)
+                    # log_handler(self.asset_obj, 'FieldChanged', self.request.user, log_msg, model_obj)
 
             else:
                 self.response_msg('warning',
@@ -669,29 +667,29 @@ class Asset(object):
         model_obj.save()
 
 
-def log_handler(asset_obj, event_name, user, detail, component=None):
-    '''    (1,u'硬件变更'),
-        (2,u'新增配件'),
-        (3,u'设备下线'),
-        (4,u'设备上线'),'''
-    log_catelog = {
-        1: ['FieldChanged', 'HardwareChanges'],
-        2: ['NewComponentAdded'],
-    }
-    if not user.id:
-        user = UserProfile.objects.filter(is_active=True).last()
-    event_type = None
-    for k, v in log_catelog.items():
-        if event_name in v:
-            event_type = k
-            break
-    log_obj = models.EventLog(
-        name=event_name,
-        event_type=event_type,
-        asset_id=asset_obj.id,
-        component=component,
-        detail=detail,
-        user_id=user.id
-    )
-
-    log_obj.save()
+# def log_handler(asset_obj, event_name, user, detail, component=None):
+#     '''    (1,u'硬件变更'),
+#         (2,u'新增配件'),
+#         (3,u'设备下线'),
+#         (4,u'设备上线'),'''
+#     log_catelog = {
+#         1: ['FieldChanged', 'HardwareChanges'],
+#         2: ['NewComponentAdded'],
+#     }
+#     if not user.id:
+#         user = UserProfile.objects.filter(is_active=True).last()
+#     event_type = None
+#     for k, v in log_catelog.items():
+#         if event_name in v:
+#             event_type = k
+#             break
+#     log_obj = models.EventLog(
+#         name=event_name,
+#         event_type=event_type,
+#         asset_id=asset_obj.id,
+#         component=component,
+#         detail=detail,
+#         user_id=user.id
+#     )
+#
+#     log_obj.save()

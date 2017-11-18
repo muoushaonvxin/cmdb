@@ -5783,3 +5783,207 @@
 2017-11-18-02:50-29	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
 2017-11-18-02:50-29	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
 2017-11-18-02:50-29	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:09-53	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:09-53	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:09-53	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:10-00	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:10-00	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:10-00	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:10-03	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:10-03	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:10-03	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:10-07	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:10-07	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:10-07	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:10-10	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:10-10	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:10-10	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:10-14	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:10-14	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:10-14	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:10-17	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:10-17	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:10-17	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:10-21	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:10-21	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:10-21	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:10-25	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:10-25	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:10-25	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:10-28	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:10-28	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:10-28	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:10-32	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:10-32	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:10-32	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:10-35	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:10-35	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:10-35	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:10-39	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:10-39	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:10-39	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:10-43	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:10-43	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:10-43	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:10-46	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:10-46	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:10-46	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:10-50	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:10-50	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:10-50	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:10-53	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:10-53	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:10-53	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:10-57	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:10-57	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:10-57	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:11-01	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:11-01	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:11-01	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:11-04	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:11-04	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:11-04	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:11-07	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:11-07	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:11-07	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:11-12	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:11-12	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:11-12	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:11-15	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:11-15	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:11-15	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:11-18	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:11-18	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:11-18	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:11-22	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:11-22	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:11-22	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:11-25	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:11-25	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:11-25	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:11-29	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:11-29	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:11-29	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:11-33	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:11-33	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:11-33	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:11-36	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:11-36	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:11-36	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:11-40	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:11-40	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:11-40	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:11-43	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:11-43	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:11-43	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:11-47	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:11-47	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:11-47	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:11-51	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:11-51	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:11-51	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:11-55	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:11-55	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:11-55	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:11-58	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:11-58	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:11-58	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:12-03	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:12-03	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:12-03	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:12-06	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:12-06	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:12-06	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:12-10	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:12-10	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:12-10	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:12-14	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:12-14	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:12-14	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:12-18	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:12-18	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:12-18	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:12-22	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:12-22	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:12-22	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:12-26	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:12-26	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:12-26	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:12-29	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:12-29	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:12-29	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:12-34	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:12-34	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:12-34	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:12-37	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:12-37	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:12-37	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:12-40	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:12-40	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:12-40	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:12-45	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:12-45	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:12-45	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:12-48	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:12-48	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:12-48	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:12-52	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:12-52	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:12-52	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:12-55	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:12-55	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:12-55	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:12-59	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:12-59	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:12-59	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:13-02	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:13-02	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:13-02	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:13-06	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:13-06	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:13-06	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:13-10	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:13-10	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:13-10	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:13-14	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:13-14	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:13-14	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:13-17	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:13-17	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:13-17	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:13-21	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:13-21	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:13-21	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:13-25	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:13-25	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:13-25	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:13-28	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:13-28	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:13-28	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:13-32	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:13-32	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:13-32	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:13-36	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:13-36	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:13-36	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:13-40	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:13-40	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:13-40	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:13-43	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:13-43	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:13-43	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:13-47	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:13-47	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:13-47	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:13-51	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:13-51	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:13-51	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:13-54	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:13-54	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:13-54	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:13-57	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:13-57	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:13-57	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-18-04:14-01	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-18-04:14-01	WARNING	{'AssetUpdateWarning': "Asset component [8:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-18-04:14-01	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
