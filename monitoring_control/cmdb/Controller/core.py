@@ -53,53 +53,6 @@ class Asset(object):
             self.waiting_approval = True
             return False
 
-    def get_asset_id_by_sn(self):
-        '''When the client first time reports it's data to Server,it doesn't know it's asset id yet,so it will come to the server asks for the asset it first,then report the data again  '''
-        data = self.request.POST.get("asset_data")
-        response = {}
-        if data:
-            try:
-                data = json.loads(data)
-                if self.mandatory_check(data, only_check_sn=True):  # the asset is already exist in DB,just return it's asset id to client
-                    response = {'asset_id': self.asset_obj.id}
-                else:
-                    if hasattr(self, 'waiting_approval'):
-                        response = {'needs_aproval': "this is a new asset,needs IT admin's approval to create the new asset id."}
-                        self.clean_data = data
-                        self.save_new_asset_to_approval_zone()
-                        print(response)
-                    else:
-                        response = self.response
-            except ValueError as e:
-                self.response_msg('error',
-                                  'AssetDataInvalid',
-                                  str(e)
-                                  )
-
-                response = self.response
-
-        else:
-            self.response_msg('error', 'AssetDataInvalid', "The reported asset data is not valid or provided")
-            response = self.response
-        return response
-
-    def save_new_asset_to_approval_zone(self):
-        '''When find out it is a new asset, will save the data into approval zone to waiting for IT admin's approvals'''
-        asset_sn = self.clean_data.get('sn')
-        asset_already_in_approval_zone = models.NewAssetApprovalZone.objects.get_or_create(sn=asset_sn,
-                                                                                           data=json.dumps(self.clean_data),
-                                                                                           manufactory=self.clean_data.get('manufactory'),
-                                                                                           model=self.clean_data.get('model'),
-                                                                                           asset_type=self.clean_data.get('asset_type'),
-                                                                                           ram_size=self.clean_data.get('ram_size'),
-                                                                                           cpu_model=self.clean_data.get('cpu_model'),
-                                                                                           cpu_count=self.clean_data.get('cpu_count'),
-                                                                                           cpu_core_count=self.clean_data.get('cpu_core_count'),
-                                                                                           os_distribution=self.clean_data.get('os_distribution'),
-                                                                                           os_release=self.clean_data.get('os_release'),
-                                                                                           os_type=self.clean_data.get('os_type'),
-                                                                                           )
-        return True
 
     def data_is_valid(self):
         data = self.request.POST.get("asset_data")
@@ -139,6 +92,38 @@ class Asset(object):
             print('\033[33;1m---asset already exist ,going to update----\033[0m')
             self.update_asset()
 
+
+    def get_asset_id_by_sn(self):
+        '''When the client first time reports it's data to Server,it doesn't know it's asset id yet,so it will come to the server asks for the asset it first,then report the data again  '''
+        data = self.request.POST.get("asset_data")
+        response = {}
+        if data:
+            try:
+                data = json.loads(data)
+                if self.mandatory_check(data, only_check_sn=True):  # the asset is already exist in DB,just return it's asset id to client
+                    response = {'asset_id': self.asset_obj.id}
+                else:
+                    if hasattr(self, 'waiting_approval'):
+                        response = {'needs_aproval': "this is a new asset,needs IT admin's approval to create the new asset id."}
+                        self.clean_data = data
+                        self.save_new_asset_to_approval_zone()
+                        print(response)
+                    else:
+                        response = self.response
+            except ValueError as e:
+                self.response_msg('error',
+                                  'AssetDataInvalid',
+                                  str(e)
+                                  )
+
+                response = self.response
+
+        else:
+            self.response_msg('error', 'AssetDataInvalid', "The reported asset data is not valid or provided")
+            response = self.response
+        return response
+
+
     def data_is_valid_without_id(self):
         '''when there's no asset id in reporting data ,goes through this function fisrt'''
 
@@ -162,6 +147,47 @@ class Asset(object):
                               'AssetDataInvalid',
                               "The reported asset data is not valid or provided"
                               )
+
+
+    def save_new_asset_to_approval_zone(self):
+        '''When find out it is a new asset, will save the data into approval zone to waiting for IT admin's approvals'''
+        asset_sn = self.clean_data.get('sn')
+        asset_already_in_approval_zone = models.NewAssetApprovalZone.objects.get_or_create(sn=asset_sn,
+                                                                                           data=json.dumps(self.clean_data),
+                                                                                           manufactory=self.clean_data.get('manufactory'),
+                                                                                           model=self.clean_data.get('model'),
+                                                                                           asset_type=self.clean_data.get('asset_type'),
+                                                                                           ram_size=self.clean_data.get('ram_size'),
+                                                                                           cpu_model=self.clean_data.get('cpu_model'),
+                                                                                           cpu_count=self.clean_data.get('cpu_count'),
+                                                                                           cpu_core_count=self.clean_data.get('cpu_core_count'),
+                                                                                           os_distribution=self.clean_data.get('os_distribution'),
+                                                                                           os_release=self.clean_data.get('os_release'),
+                                                                                           os_type=self.clean_data.get('os_type'),
+                                                                                           )
+        return True
+
+
+
+
+    def __verify_field(self, data_set, field_key, data_type, required=True):
+        field_val = data_set.get(field_key)
+        if field_val:
+            try:
+                data_set[field_key] = data_type(field_val)
+            except ValueError as e:
+                self.response_msg('error',
+                                  'InvalidField',
+                                  "The field [%s]'s data type is invalid, the correct data type should be [%s] " % (field_key, data_type)
+                                  )
+        elif required == True:
+            self.response_msg('error',
+                              'LackOfField',
+                              "The field [%s] has no value provided in your reporting data [%s]" % (field_key, data_set)
+                              )
+
+
+
 
     def reformat_components(self, identify_field, data_set):
         '''This function is used as workround for some components's data structor is big dict ,yet
@@ -195,21 +221,7 @@ class Asset(object):
         for k, data in data_set.items():
             data[identify_field] = k
 
-    def __verify_field(self, data_set, field_key, data_type, required=True):
-        field_val = data_set.get(field_key)
-        if field_val:
-            try:
-                data_set[field_key] = data_type(field_val)
-            except ValueError as e:
-                self.response_msg('error',
-                                  'InvalidField',
-                                  "The field [%s]'s data type is invalid, the correct data type should be [%s] " % (field_key, data_type)
-                                  )
-        elif required == True:
-            self.response_msg('error',
-                              'LackOfField',
-                              "The field [%s] has no value provided in your reporting data [%s]" % (field_key, data_set)
-                              )
+
 
     def create_asset(self):
         '''
@@ -218,30 +230,6 @@ class Asset(object):
         '''
         func = getattr(self, '_create_%s' % self.clean_data['asset_type'])
         create_obj = func()
-
-    def update_asset(self):
-        func = getattr(self, '_update_%s' % self.clean_data['asset_type'])
-        create_obj = func()
-
-    def _update_server(self):
-        nic = self.__update_asset_component(data_source=self.clean_data['nic'],
-                                            fk='nic_set',
-                                            update_fields=['name', 'sn', 'model', 'macaddress', 'ipaddress', 'netmask','bonding'],
-                                            identify_field='macaddress'
-                                            )
-        disk = self.__update_asset_component(data_source=self.clean_data['physical_disk_driver'],
-                                             fk='disk_set',
-                                             update_fields=['slot', 'sn', 'model', 'manufactory', 'capacity','iface_type'],
-                                             identify_field='slot'
-                                             )
-        ram = self.__update_asset_component(data_source=self.clean_data['ram'],
-                                            fk='ram_set',
-                                            update_fields=['slot', 'sn', 'model', 'capacity'],
-                                            identify_field='slot'
-                                            )
-        cpu = self.__update_cpu_component()
-        manufactory = self.__update_manufactory_component()
-        server = self.__update_server_component()
 
     def _create_server(self):
         self.__create_server_info()
@@ -424,17 +412,33 @@ class Asset(object):
                               'RAM info is not provied in your reporting data'
                               )
 
-    def __update_server_component(self):
-        update_fields = ['model', 'raid_type', 'os_type', 'os_distribution', 'os_release']
-        if hasattr(self.asset_obj, 'server'):
-            self.__compare_component(model_obj=self.asset_obj.server,
-                                    fields_from_db=update_fields,
-                                    data_source=self.clean_data)
-        else:
-            self.__create_server_info(ignore_errs=True)
 
-    def __update_manufactory_component(self):
-        self.__create_or_update_manufactory(ignore_errs=True)
+
+# 更新资产记录
+
+    def update_asset(self):
+        func = getattr(self, '_update_%s' % self.clean_data['asset_type'])
+        create_obj = func()
+
+    def _update_server(self):
+        nic = self.__update_asset_component(data_source=self.clean_data['nic'],
+                                            fk='nic_set',
+                                            update_fields=['name', 'sn', 'model', 'macaddress', 'ipaddress', 'netmask','bonding'],
+                                            identify_field='macaddress'
+                                            )
+        disk = self.__update_asset_component(data_source=self.clean_data['physical_disk_driver'],
+                                             fk='disk_set',
+                                             update_fields=['slot', 'sn', 'model', 'manufactory', 'capacity','iface_type'],
+                                             identify_field='slot'
+                                             )
+        ram = self.__update_asset_component(data_source=self.clean_data['ram'],
+                                            fk='ram_set',
+                                            update_fields=['slot', 'sn', 'model', 'capacity'],
+                                            identify_field='slot'
+                                            )
+        cpu = self.__update_cpu_component()
+        manufactory = self.__update_manufactory_component()
+        server = self.__update_server_component()
 
     def __update_cpu_component(self):
         update_fields = ['cpu_model', 'cpu_count', 'cpu_core_count']
@@ -444,6 +448,18 @@ class Asset(object):
                                     data_source=self.clean_data)
         else:
             self.__create_cpu_component(ignore_errs=True)
+
+    def __update_manufactory_component(self):
+        self.__create_or_update_manufactory(ignore_errs=True)
+
+    def __update_server_component(self):
+        update_fields = ['model', 'raid_type', 'os_type', 'os_distribution', 'os_release']
+        if hasattr(self.asset_obj, 'server'):
+            self.__compare_component(model_obj=self.asset_obj.server,
+                                    fields_from_db=update_fields,
+                                    data_source=self.clean_data)
+        else:
+            self.__create_server_info(ignore_errs=True)
 
     def __update_asset_component(self, data_source, fk, update_fields, identify_field=None):
         '''
