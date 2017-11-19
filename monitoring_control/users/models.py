@@ -10,6 +10,7 @@ class UserProfile(AbstractUser):
     email = models.EmailField(verbose_name=u"email address", max_length=255, unique=True)
     mobile = models.CharField(max_length=11, null=True, blank=True, verbose_name=u"电话号码")
     weixin = models.CharField(max_length=64, blank=True, null=True)
+    token = models.CharField(max_length=128, blank=True, null=True)
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(verbose_name=u"staff status", default=True, help_text=u"Designates whether the user can log into this admin site.")
     memo = models.TextField(verbose_name='备注', blank=True, null=True, default=None)

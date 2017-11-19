@@ -18,8 +18,8 @@ Params = {
 	'windows_log_file': '%s\\logs\\windows_run_log' % BaseDir,
 
 	'auth': {
-		'user': 'jinxueyin@163.com',
-		'token': 'abc',
+		'user': '15071567976@163.com',
+		'token': '123',
 	},
 
 	'commit_interval': 3,

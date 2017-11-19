@@ -1,13 +1,72 @@
 from django.contrib import admin
 from .models import UserProfile, EmailVerifyRecord, Banner
+from django import forms
+from django.contrib.auth.admin import UserAdmin
+from django.contrib.auth.forms import ReadOnlyPasswordHashField
 
-# Register your models here.
 
-# class UserProfileAdmin(admin.ModelAdmin):
-#     list_display = ['id', 'password', 'last_login', 'is_superuser', 'username', 'first_name', 'last_name', 'email', 'is_staff', 'is_active', 'date_joined', 'nick_name', 'mobile', 'image', 'type', 'add_time']
-#     search_fields = ['id', 'password', 'last_login', 'is_superuser', 'username', 'first_name', 'last_name', 'email', 'is_staff', 'is_active', 'date_joined', 'nick_name', 'mobile', 'image', 'type', 'add_time']
-#     list_filter = ['id', 'password', 'last_login', 'is_superuser', 'username', 'first_name', 'last_name', 'email', 'is_staff', 'is_active', 'date_joined', 'nick_name', 'mobile', 'image', 'type', 'add_time']
 
+class UserCreationForm(forms.ModelForm):
+	password1 = forms.CharField(label='Password', widget=forms.PasswordInput)
+	password2 = forms.CharField(label='Password confirmation', widget=forms.PasswordInput)
+
+	class Meta:
+		model = UserProfile
+		fields = ('email', )
+
+	def clean_password2(self):
+		password1 = self.cleaned_data.get("password1")
+		password2 = self.cleaned_data.get("password2")
+		if password1 and password2 and password1 != password2:
+			raise forms.ValidationError("Passwords don't match")
+		return password2
+
+	def save(self, commit=True):
+		user = super(UserCreationForm, self).save(commit=False)
+		user.set_password(self.cleaned_data['password1'])
+		if commit:
+			user.save()
+		return user
+
+
+class UserChangeForm(forms.ModelForm):
+	password = ReadOnlyPasswordHashField(label="Password",
+		help_text=("Raw password2 are not stored, so there is no way to see"
+					"this user's password, but you can change the password"
+					"using <a href=\"password/\">this form</a>."))
+
+	class Meta:
+		model = UserProfile
+		fields = ('email', 'password', 'is_active', )
+
+
+	def clean_password(self):
+		return self.initial['password']
+
+class UserProfileAdmin(UserAdmin):
+	form = UserChangeForm
+	add_form = UserCreationForm
+
+	list_display = ('id', 'email', 'is_active')
+	# list_filter = ('is_admin',)
+	fieldsets = (
+		(None, {'fields': ('email', 'password')}),
+		('Personal info', {'fields': ()}),
+		('API TOKEN info', {'fields': ('token',)}),
+		('Permissions', {'fields': ('token',)}),
+		('账户有效期', {'fields': ()}),
+	)
+
+	add_fieldsets = (
+		(None, {
+			'classes': ('wide',),
+			'fields': ('email', 'password1', 'password2', 'is_active', 'is_admin')}
+		),
+	)
+
+	search_fields = ('email',)
+	ordering = ('email',)
+	filter_horizontal = ()
 
 class EmailVerifyRecordAdmin(admin.ModelAdmin):
     list_display = ['code', 'email', 'send_type', 'send_time']
@@ -21,6 +80,6 @@ class BannerAdmin(admin.ModelAdmin):
     list_filter = ['title', 'image', 'url', 'index', 'add_time']
 
 
-# admin.site.register(UserProfile, UserProfileAdmin)
+admin.site.register(UserProfile, UserProfileAdmin)
 admin.site.register(EmailVerifyRecord, EmailVerifyRecordAdmin)
 admin.site.register(Banner, BannerAdmin)

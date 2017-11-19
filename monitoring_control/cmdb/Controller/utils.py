@@ -4,6 +4,8 @@ import hashlib
 import time
 from django.shortcuts import render, HttpResponse
 from monitoring_control import settings
+from users.models import UserProfile
+from django.core.exceptions import ObjectDoesNotExist
 
 
 def json_date_handler(obj):
@@ -20,6 +22,7 @@ def gen_token(username, timestamp, token):
 	token_format = "%s\n%s\n%s" % (username, timestamp, token)
 	obj = hashlib.md5() 
 	obj.update(token_format.encode())
+	print(obj)
 	return obj.hexdigest()[10:17]
 
 
@@ -29,10 +32,11 @@ def token_required(func):
 			"errors": []
 		}
 
-		get_args = args[0].GET
+		get_args = args[1].GET
 		username = get_args.get("user")
 		token_md5_from_client = get_args.get("token")
 		timestamp = get_args.get("timestamp")
+
 		if not username or not timestamp or not token_md5_from_client:
 			response['errors'].append({"auth_failed": "This api requires token authentication!"})
 			return HttpResponse(json.dumps(response), content_type="application/json")
@@ -47,9 +51,7 @@ def token_required(func):
 					response['errors'].append({"auth_failed": "The token is expired!"})
 				else:
 					pass
-
-				print("\033[41;1m;%s ---client:%s\033[0m" % (time.time(), timestamp, time.time())) 
-
+				print("\033[41;1m;%s ---client:%s\033[0m" % (time.time(), timestamp), time.time() - int(timestamp))
 		except ObjectDoesNotExist as e:
 			response['errors'].append({"auth_failed": "Invalid username or token_id"})
 		

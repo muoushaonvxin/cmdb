@@ -14358,3 +14358,12 @@
 2017-11-18-08:33-11	WARNING	{'AssetUpdateWarning': "Asset component [10:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
 2017-11-18-08:33-11	WARNING	{'AssetUpdateWarning': "Asset component [10:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
 2017-11-18-08:33-11	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-19-07:51-44	WARNING	{'AssetUpdateWarning': "Asset component [10:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-19-07:51-44	WARNING	{'AssetUpdateWarning': "Asset component [10:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-19-07:51-44	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-19-07:51-47	WARNING	{'AssetUpdateWarning': "Asset component [10:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-19-07:51-47	WARNING	{'AssetUpdateWarning': "Asset component [10:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-19-07:51-47	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}
+2017-11-19-07:51-51	WARNING	{'AssetUpdateWarning': "Asset component [10:00:0C:29:38:63:6E]'s field [sn] is not provided in reporting data "}
+2017-11-19-07:51-51	WARNING	{'AssetUpdateWarning': "Asset component [10:00:0C:29:38:63:6E]'s field [bonding] is not provided in reporting data "}
+2017-11-19-07:51-51	WARNING	{'AssetUpdateWarning': "Asset component [VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e sn:VMware-56 4d dc e0 6f 0b 2b 7d-ab 8a a5 10 f7 38 63 6e]'s field [raid_type] is not provided in reporting data "}

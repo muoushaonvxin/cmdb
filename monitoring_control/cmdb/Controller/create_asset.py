@@ -4,6 +4,7 @@ from cmdb import models
 from django.utils import timezone
 from users.models import UserProfile
 
+
 class Asset(object):
 
     def __init__(self, request):
