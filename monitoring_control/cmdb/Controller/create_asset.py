@@ -235,7 +235,6 @@ class Asset(object):
     def _create_server(self):
         self.__create_server_info()
         self.__create_or_update_manufactory()
-
         self.__create_cpu_component()
         self.__create_disk_component()
         self.__create_nic_component()
@@ -629,7 +628,7 @@ class Asset(object):
                               log_msg
                               )
 
-            log_handler(self.asset_obj, 'HardwareChanges', self.request.user, log_msg, i)
+            # log_handler(self.asset_obj, 'HardwareChanges', self.request.user, log_msg, i)
             i.delete()
 
     def __compare_component(self, model_obj, fields_from_db, data_source):
@@ -654,7 +653,7 @@ class Asset(object):
                                                                                               type(val_from_db),
                                                                                               type(val_from_data_source),
                                                                                               field
-                          )
+                    )
 
                     db_field = model_obj._meta.get_field(field)
                     db_field.save_form_data(model_obj, val_from_data_source)

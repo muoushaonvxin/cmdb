@@ -1,0 +1,17 @@
+.table {
+    border: 2px solid aquamarine;
+    font-size: 7px;
+    font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+}
+
+.hide {
+    display: none;
+}
+
+.btn {
+    background-color: pink;
+}
+
+.btn-danger {
+    background-color: #FFFFFF;
+}

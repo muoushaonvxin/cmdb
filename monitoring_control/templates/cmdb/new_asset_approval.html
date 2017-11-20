@@ -3,10 +3,10 @@
 	<head>
 		<title></title>
 	</head>
-
+    <link rel="stylesheet" href="/static/css/cmdb/new_asset_approval.css">
 	<body>
 		<div class="panel-body">
-                <form method="post" action="/cmdb/asset/new_asset/approval/">{% csrf_token %}
+                <form method="post" action="/cmdb/asset/new_asset/approval/">
                 <table class="table table-hover">
                     <tr>
                         <th>#</th>
@@ -43,7 +43,7 @@
 
 
                 </table>
-                <select name="approved_asset_list"    class="hide" multiple>
+                <select name="approved_asset_list" class="hide" multiple>
                     {% for new_asset in new_assets %}
                     <option value="{{ new_asset.id }}" selected>{{ new_asset.sn }}</option>
                     {% endfor %}

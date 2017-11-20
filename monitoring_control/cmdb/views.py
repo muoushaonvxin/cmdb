@@ -42,6 +42,8 @@ class NewAssetsApproval(View):
 		return render(request, 'cmdb/new_asset_approval.html', {'new_assets': new_assets})
 
 	def post(self, request):
+		print(request.POST)
+
 		request.POST = request.POST.copy()
 		approved_asset_list = request.POST.getlist('approved_asset_list')
 		approved_asset_list = NewAssetApprovalZone.objects.filter(id__in=approved_asset_list)
