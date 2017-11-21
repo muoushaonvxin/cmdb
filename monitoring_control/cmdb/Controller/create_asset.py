@@ -95,7 +95,9 @@ class Asset(object):
 
 
     def get_asset_id_by_sn(self):
-        '''When the client first time reports it's data to Server,it doesn't know it's asset id yet,so it will come to the server asks for the asset it first,then report the data again  '''
+        '''
+        When the client first time reports it's data to Server,it doesn't know it's asset id yet,so it will come to the server asks for the asset it first,then report the data again  
+        '''
         data = self.request.POST.get("asset_data")
         response = {}
         if data:
@@ -445,7 +447,8 @@ class Asset(object):
         if hasattr(self.asset_obj, 'cpu'):
             self.__compare_component(model_obj=self.asset_obj.cpu,
                                     fields_from_db=update_fields,
-                                    data_source=self.clean_data)
+                                    data_source=self.clean_data
+                                    )
         else:
             self.__create_cpu_component(ignore_errs=True)
 
@@ -457,7 +460,8 @@ class Asset(object):
         if hasattr(self.asset_obj, 'server'):
             self.__compare_component(model_obj=self.asset_obj.server,
                                     fields_from_db=update_fields,
-                                    data_source=self.clean_data)
+                                    data_source=self.clean_data
+                                    )
         else:
             self.__create_server_info(ignore_errs=True)
 
