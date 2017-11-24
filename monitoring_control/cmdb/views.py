@@ -75,9 +75,13 @@ class CmdbView(View):
 
 
 '''
-	对主机的远程操作
+查询当前的资产
 '''
 
+class QueryAsset(View):
+	def get(self, request):
+		asset_list = Asset.objects.all()
+		return render(request, 'cmdb/query_assets.html', {'asset_list': asset_list})
 
 
 

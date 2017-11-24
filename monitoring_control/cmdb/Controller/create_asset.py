@@ -21,11 +21,13 @@ class Asset(object):
             'warning': []
         }
 
+
     def response_msg(self, msg_type, key, msg):
         if msg_type in self.response:
             self.response[msg_type].append({key: msg})
         else:
             raise ValueError
+
 
     # 强制数据合法性检测
     def mandatory_check(self, data, only_check_sn=False):
@@ -80,6 +82,7 @@ class Asset(object):
             return True
         else:
             return False
+
 
     def data_inject(self):
         '''save data into DB,the data_is_valid() must returns True before call this function'''

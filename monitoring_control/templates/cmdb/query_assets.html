@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="/static/css/cmdb/query_asset/query_asset.css" />
+<body>
+    <table class="size_asset_record">
+        <th class="size_asset_field">资产类型</th>
+        <th class="size_asset_field">资产名称</th>
+        <th class="size_asset_field">资产sn号</th>
+        <th class="size_asset_field">制造商</th>
+
+        {% for asset in asset_list %}
+            <tr>
+                <td class="size_asset_field_content">{{ asset.asset_type }}</td>
+                <td class="size_asset_field_content">{{ asset.name }}</td>
+                <td class="size_asset_field_content">{{ asset.sn }}</td>
+                <td class="size_asset_field_content">{{ asset.manufactory }}</td>
+                <tb><input type="button">详细信息</tb>
+            </tr>
+        {% endfor %}
+    </table>
+
+</body>
+</html>

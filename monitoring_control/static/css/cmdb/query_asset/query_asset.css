@@ -1,0 +1,20 @@
+body {
+    background-color: wheat;
+}
+
+.size_asset_record {
+    border: 1px solid cadetblue;
+    font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+}
+
+.size_asset_field {
+    align-content: center;
+    font-size: 12px;
+}
+
+.size_asset_field_content {
+    width: 250px;
+    margin: 10px auto;
+    font-size: 8px;
+    text-align: center
+}
