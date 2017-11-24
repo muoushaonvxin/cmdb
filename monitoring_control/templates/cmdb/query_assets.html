@@ -5,12 +5,14 @@
     <title>Title</title>
 </head>
 <link rel="stylesheet" href="/static/css/cmdb/query_asset/query_asset.css" />
+
 <body>
     <table class="size_asset_record">
         <th class="size_asset_field">资产类型</th>
         <th class="size_asset_field">资产名称</th>
         <th class="size_asset_field">资产sn号</th>
         <th class="size_asset_field">制造商</th>
+        <th class="size_asset_field">查看详细信息</th>
 
         {% for asset in asset_list %}
             <tr>
@@ -18,10 +20,15 @@
                 <td class="size_asset_field_content">{{ asset.name }}</td>
                 <td class="size_asset_field_content">{{ asset.sn }}</td>
                 <td class="size_asset_field_content">{{ asset.manufactory }}</td>
-                <tb><input type="button">详细信息</tb>
+                <td class="size_asset_field_content">
+                    <input type="button" value="详细信息" onclick="query_asset_by_sn(this);" />
+                </td>
             </tr>
         {% endfor %}
+
     </table>
 
 </body>
+<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+<script type="text/javascript" src="/static/js/cmdb/query_asset.js"></script>
 </html>

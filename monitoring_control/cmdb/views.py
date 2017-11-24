@@ -83,6 +83,14 @@ class QueryAsset(View):
 		asset_list = Asset.objects.all()
 		return render(request, 'cmdb/query_assets.html', {'asset_list': asset_list})
 
+class QueryAssetDetail(View):
+	def get(self, request):
+		asset = request.GET.get("sn", "")
+		if asset:
+			print(asset)
+			asset = Asset.objects.get(sn=asset)
+			return render(request, 'cmdb/query_asset_detail.html', {'asset_info': asset})
+		return HttpResponse("Sorry, the asset is not exist.")
 
 
 
