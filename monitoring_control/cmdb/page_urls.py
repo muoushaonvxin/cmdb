@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-from .views import CmdbView, QueryAsset, QueryAssetDetail
+from .views import CmdbView, QueryAsset, QueryAssetDetailBySn
 from django.conf.urls import url, include
 from django.views.generic import TemplateView
 
@@ -19,6 +19,9 @@ urlpatterns = [
 	# 资产列表
 	url(r'^asset_list/$', QueryAsset.as_view()),
 
-	# 查看资产详细信息
-	url(r'^query_asset_detail/$', QueryAssetDetail.as_view()),
+	# 根据之臣id取得资产
+	url(r'^query_asset_detail_by_sn/$', QueryAssetDetailBySn.as_view()),
+
+	# 跳转资产详细信息
+	url(r'^query_asset_detail/$', TemplateView.as_view(template_name="cmdb/query_asset_detail.html")),
 ]

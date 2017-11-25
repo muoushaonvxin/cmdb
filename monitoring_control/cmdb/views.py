@@ -1,8 +1,8 @@
 from django.shortcuts import render, HttpResponse
 from django.views.generic import View
-from .Controller import create_asset, utils
+from .Controller import create_asset, utils, date_encoder
 from cmdb.models import Asset, Server, CPU, Disk, RAM, NIC, RaidAdaptor, NetworkDevice
-from cmdb.models import NewAssetApprovalZone
+from cmdb.models import NewAssetApprovalZone, Manufactory
 import json
 
 
@@ -83,14 +83,39 @@ class QueryAsset(View):
 		asset_list = Asset.objects.all()
 		return render(request, 'cmdb/query_assets.html', {'asset_list': asset_list})
 
-class QueryAssetDetail(View):
+class QueryAssetDetailBySn(View):
 	def get(self, request):
 		asset = request.GET.get("sn", "")
-		if asset:
-			print(asset)
+
+		try:
 			asset = Asset.objects.get(sn=asset)
-			return render(request, 'cmdb/query_asset_detail.html', {'asset_info': asset})
-		return HttpResponse("Sorry, the asset is not exist.")
+			manufactory = Manufactory.objects.get(id=asset.manufactory_id)
+
+			asset_info = {
+				"id": asset.id,
+				"asset_type": asset.asset_type,
+				"name": asset.name,
+				"sn": asset.sn,
+				"manufactory": manufactory.manufactory,
+				"management_ip": asset.management_ip,
+				"contract": asset.contract,
+				"trade_date": asset.trade_date,
+				"expire_date": asset.expire_date,
+				"price": asset.price,
+				"business_unit": asset.business_unit,
+				"admin": asset.admin,
+				"idc": asset.idc,
+				"memo": asset.memo,
+				"create_date": asset.create_date,
+				"update_date": asset.update_date,
+			}
+
+			return HttpResponse(json.dumps(asset_info, cls=date_encoder.DateEncoder), content_type="application/json")
+		except Exception as e:
+			return HttpResponse(json.dumps(e), content_type="application/json")
+
+
+
 
 
 
