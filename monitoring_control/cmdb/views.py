@@ -1,6 +1,6 @@
 from django.shortcuts import render, HttpResponse
 from django.views.generic import View
-from .Controller import create_asset, utils, date_encoder
+from .Controller import create_asset, check_token, date_encoder
 from cmdb.models import Asset, Server, CPU, Disk, RAM, NIC, RaidAdaptor, NetworkDevice
 from cmdb.models import NewAssetApprovalZone, Manufactory
 import json
@@ -8,12 +8,11 @@ import json
 
 # 如果已经有资产了，就在这个方法里面进行汇报
 class AssetReport(View):
-	@utils.token_required
+	@check_token.token_required
 	def get(self, request):
-		print(request.GET)
 		return HttpResponse(json.dumps('---test---'), content_type="application/json")
 
-	@utils.token_required
+	@check_token.token_required
 	def post(self, request):
 		ass_handler = create_asset.Asset(request)
 		if ass_handler.data_is_valid():

@@ -4,9 +4,10 @@ import time
 import json
 import copy
 
-
+# 数据存储与优化
 class DataStore(object):
 
+	# 客户端ip， 服务名称， 客户端汇报过来的数据， redis数据库连接
 	def __init__(self, client_ip, service_name, data, redis_obj):
 		self.client_ip = client_ip
 		self.service_name = service_name
@@ -14,29 +15,17 @@ class DataStore(object):
 		self.redis_conn_obj = redis_obj
 		self.process_and_save()
 
-	def get_data_slice(self, lastest_data_key, optimization_interval):
-		all_real_data = self.redis_conn_obj.lrange(lastest_data_key, 1, -1)
-		data_set = []
-		for item in all_real_data:
-			data = json.loads(item)
-			if len(data) == 2:
-				service_data, last_save_time = data
-				if time.time() - last_save_time <= optimization_interval:
-					data_set.append(data)
-				else:
-					pass
-		return data_set
-
 
 	def process_and_save(self):
 		print("\033[42;1m---service data-----------------------\033[0m")
 		if self.data['status'] == 0:
 			for key, data_series_val in settings.STATUS_DATA_OPTIMIZATION.items():
+				# redis数据库当中存储的key值
 				data_series_key_in_redis = "StatusData_%s_%s_%s" % (self.client_ip, self.service_name, key)
-				last_point_from_redis = self.redis_conn_obj.lrange(data_serise_key_in_redis, -1, -1)
+
+				last_point_from_redis = self.redis_conn_obj.lrange(data_series_key_in_redis, -1, -1)
 				if not last_point_from_redis:
-					self.redis_conn_obj.rpush(data_serise_key_in_redis, json.dumps([None, time.time()]))
-				
+					self.redis_conn_obj.rpush(data_series_key_in_redis, json.dumps([None, time.time()]))
 				if data_series_val[0] == 0:
 					self.redis_conn_obj.rpush(data_series_key_in_redis, json.dumps(self.data, time.time()))
 				else:
@@ -44,9 +33,12 @@ class DataStore(object):
 
 					if time.time() - last_point_save_time >= data_series_val[0]:
 						lastest_data_key_in_redis = "StatusData_%s_%s_latest" % (self.client_ip, self.service_name)
+
 						print("calulating data for key:\033[31;1m%s\033[0m" % data_series_key_in_redis)
+
 						data_set = self.get_data_slice(lastest_data_key_in_redis, data_series_val[0])
 						print('-------------------------------len dataset: ', len(data_set))
+
 						if len(data_set) > 0:
 							optimized_data = self.get_optimized_data(data_series_key_in_redis, data_set)
 							if optimized_data:
@@ -59,20 +51,36 @@ class DataStore(object):
 			raise ValueError
 
 
-	def save_optimized_data(self, data_series_key_in_redis, optimized_data):
-		self.redis_conn_obj.rpush(data_series_key_in_redis, json.dumps([optimized_data, time.time()]))
+	def get_data_slice(self, lastest_data_key, optimization_interval):
+		all_real_data = self.redis_conn_obj.lrange(lastest_data_key, 1, -1)
+		data_set = []
+
+		for item in all_real_data:
+			data = json.loads(item)
+			if len(data) == 2:
+				service_data, last_save_time = data
+				if time.time() - last_save_time <= optimization_interval:
+					data_set.append(data)
+				else:
+					pass
+
+		return data_set
 
 
 	def get_optimized_data(self, data_set_key, raw_service_data):
+
 		print("get_optimized_data: ", raw_service_data[0])
 		service_data_keys = raw_service_data[0][0].keys()
 		first_service_data_point = raw_service_data[0][0]
 
 		optimized_dic = {}
+
 		if 'data' not in service_data_keys:
 			for key in service_data_keys:
 				optimized_dic[key] = []
+
 			tmp_data_dic = copy.deepcopy(optimized_dic)
+
 			for service_data_item, last_save_time in raw_service_data:
 				for service_index, v in service_data_item.items():
 					try:
@@ -96,6 +104,7 @@ class DataStore(object):
 					optimized_dic[service_item_key][k2] = []
 
 			tmp_data_dic = copy.deepcopy(optimized_dic)
+
 			if tmp_data_dic:
 				print('tmp_data_dic: ', tmp_data_dic)
 				for service_data_item, last_save_time in raw_service_data:
@@ -115,9 +124,13 @@ class DataStore(object):
 
 			else:
 				print("\033[41;1mMust be sth wrong with client report")
-		print("optimized empty dic: ", optimized_dic)
 
+		print("optimized empty dic: ", optimized_dic)
 		return optimized_dic
+
+
+	def save_optimized_data(self, data_series_key_in_redis, optimized_data):
+		self.redis_conn_obj.rpush(data_series_key_in_redis, json.dumps([optimized_data, time.time()]))
 
 
 	def get_average(self, data_set):

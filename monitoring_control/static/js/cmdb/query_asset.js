@@ -16,6 +16,7 @@ function query_asset_by_sn(ths){
             window.location.href = "/cmdb/page/query_asset_detail/";
             window.location.target = "mainFrame";
             console.log(data.sn);
+            console.log(data.create_date);
         },
         error: function (data) {
             console.log("render tiao zhuan bu liao.");

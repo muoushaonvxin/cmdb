@@ -1,13 +1,13 @@
 # -*- encoding: utf-8 -*-
 import pickle, time
+from .redis_conn import redis_conn
 
-from TimeSpace.ServerHandler import Redis_conn
 
 class TriggerHandler(object):
 
 	def __init__(self, django_settings):
 		self.django_settings = django_settings
-		self.redis = Redis_conn.redis_conn(self.django_settings)
+		self.redis = redis_conn()
 		self.alert_counters = {}
 		alert_counters = {
 			1: {2:{'counter':0, 'last_alert': None},
@@ -28,7 +28,7 @@ class TriggerHandler(object):
 
 	def trigger_consume(self, msg):
 		self.trigger_count += 1
-		print("\033[41;1m********** Got a trigger msg [%s] ***********\033[0m" % self.)
+		# print("\033[41;1m********** Got a trigger msg [%s] ***********\033[0m" % self.)
 		trigger_msg = pickle.loads(msg[2])
 		action = ActionHandler(trigger_msg, self.alert_counters)
 		action.trigger_process()

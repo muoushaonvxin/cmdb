@@ -1,180 +1,200 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38a6df8e-5e45-4094-86f8-590fe1709f53" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/Controller/utils.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/Controller/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/forms.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/page_urls.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/page_urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/js/jquery.min.js" afterPath="$PROJECT_DIR$/monitoring_control/static/js/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/log/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/log/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0009_action_recover_message.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0009_action_recover_message.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/core/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/core/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/.idea/preferred-vcs.xml" afterPath="$PROJECT_DIR$/monitoring_control/.idea/preferred-vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/video/collection.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/video/collection.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/windows/windows_network.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/windows/windows_network.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/Controller/trigger_handler.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/Controller/trigger_handler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/logs/windows_run_log" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/logs/windows_run_log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/tests.py" afterPath="$PROJECT_DIR$/monitoring_control/users/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0013_auto_20171020_2312.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0013_auto_20171020_2312.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_all_bg.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_all_bg.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/rest_urls.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/rest_urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/linux/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/linux/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/js/jquery-migrate-1.2.1.min.js" afterPath="$PROJECT_DIR$/monitoring_control/static/js/jquery-migrate-1.2.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/log/make_log.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/log/make_log.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/.idea/monitoring_control.iml" afterPath="$PROJECT_DIR$/monitoring_control/.idea/monitoring_control.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/bin/cmdb_client.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/bin/cmdb_client.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/.idea/misc.xml" afterPath="$PROJECT_DIR$/monitoring_control/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/index.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/bin/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/bin/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/windows/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/windows/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/monitor/top/about_nav_bg.jpg" afterPath="$PROJECT_DIR$/monitoring_control/static/images/monitor/top/about_nav_bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/monitor/left.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/monitor/left.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/plugin_api.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/plugin_api.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/page_urls.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/page_urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/migrations/0005_auto_20170826_2209.py" afterPath="$PROJECT_DIR$/monitoring_control/users/migrations/0005_auto_20170826_2209.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/var/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/var/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/users/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/core/api_token.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/core/api_token.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/bin/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/bin/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/network.txt" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/network.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/utils/sendEmail.py___jb_tmp___" afterPath="$PROJECT_DIR$/monitoring_control/users/utils/sendEmail.py___jb_tmp___" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_login_name.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_login_name.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/login.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/models.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/monitor/news.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/monitor/news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/variables/time_var.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/variables/time_var.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/Controller/monitorControll.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/Controller/monitorControll.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/log/settings.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/log/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_bottom_l.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_bottom_l.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0007_auto_20171115_1917.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0007_auto_20171115_1917.py" />
+    <list default="true" id="ee3dad5f-cf20-4bfe-8621-0224128ea50e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring_control/static/images/cmdb/left/user_main_c.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cmdb.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/Controller/utils.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/monitoring_control/monitor/Controller/monitorControll.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/Controller/monitor_ctl.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/linux/MegaCli" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/linux/MegaCli" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/utils/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/users/utils/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/migrations/0006_auto_20171029_1036.py" afterPath="$PROJECT_DIR$/monitoring_control/users/migrations/0006_auto_20171029_1036.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/views.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/core/info_collection.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/core/info_collection.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/monitor/left/user_main_c.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/monitor/left/user_main_c.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0006_auto_20171115_1916.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0006_auto_20171115_1916.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/forms.py" afterPath="$PROJECT_DIR$/monitoring_control/users/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/tests.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/Controller/data_optimization.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/Controller/data_optimization.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_top_c.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_top_c.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/migrations/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/users/migrations/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/misc.xml" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/conf/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/conf/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/monitor/control.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/monitor/control.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitoring_control/wsgi.py" afterPath="$PROJECT_DIR$/monitoring_control/monitoring_control/wsgi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/Controller/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/Controller/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/core/client.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/core/client.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitoring_control/settings.py" afterPath="$PROJECT_DIR$/monitoring_control/monitoring_control/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/admin.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0007_auto_20170828_1938.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0007_auto_20170828_1938.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/monitoring_control/users/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/core/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/core/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0012_auto_20171020_2303.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0012_auto_20171020_2303.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0005_auto_20170827_0105.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0005_auto_20170827_0105.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/urls.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/linux_cpu.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/linux_cpu.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/rest_urls.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/rest_urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/core/client.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/core/client.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/video/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/video/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0002_auto_20171030_2049.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0002_auto_20171030_2049.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/monitor_client.iml" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/monitor_client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/manage.py" afterPath="$PROJECT_DIR$/monitoring_control/manage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/linux_network.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/linux_network.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0011_auto_20170901_1951.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0011_auto_20170901_1951.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitoring_control/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitoring_control/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/views.py" afterPath="$PROJECT_DIR$/monitoring_control/users/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/.idea/workspace.xml" afterPath="$PROJECT_DIR$/monitoring_control/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_top_l.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_top_l.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/Controller/core.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/Controller/core.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0003_auto_20171030_2056.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0003_auto_20171030_2056.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_top_r.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_top_r.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/linux/GetLinuxSysInfo.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/linux/GetLinuxSysInfo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_login_password.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_login_password.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/apps.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/apps.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/files/network.txt" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/files/network.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/monitor/left/module6bg.png" afterPath="$PROJECT_DIR$/monitoring_control/static/images/monitor/left/module6bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/core/main.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/core/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/password/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/password/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0004_auto_20170827_0039.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0004_auto_20170827_0039.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0010_auto_20170831_0107.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0010_auto_20170831_0107.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/admin.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0005_auto_20171030_2121.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0005_auto_20171030_2121.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/password/ssh_crack.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/password/ssh_crack.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/email/mail.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/email/mail.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/views.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/conf/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/conf/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/plugin_api.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/plugin_api.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_login_re.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_login_re.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/.idea/modules.xml" afterPath="$PROJECT_DIR$/monitoring_control/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/css/monitor/left/left.css" afterPath="$PROJECT_DIR$/monitoring_control/static/css/monitor/left/left.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/cmdb/new_asset_approval.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/cmdb/new_asset_approval.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/conf/settings.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/conf/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/forms.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/windows/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/windows/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/models.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/modules.xml" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_all_bg.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_all_bg.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_bottom_c.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_bottom_c.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_bottom_l.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_bottom_l.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_bottom_r.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_bottom_r.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/monitoring_control/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/css/login/User_Login.css" afterPath="$PROJECT_DIR$/monitoring_control/static/css/login/User_Login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_main_l.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_main_l.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/conf/settings.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/conf/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/var/.asset_id" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/var/.asset_id" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/Controller/data_processing.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/Controller/data_processing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/apps.py" afterPath="$PROJECT_DIR$/monitoring_control/users/apps.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/main.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/windows/windows_cpu.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/windows/windows_cpu.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/migrations/0004_remove_userprofile_name.py" afterPath="$PROJECT_DIR$/monitoring_control/users/migrations/0004_remove_userprofile_name.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/cmdb/control.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/cmdb/control.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/variables/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/variables/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/bin/monitor_client.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/bin/monitor_client.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0003_auto_20170827_0036.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0003_auto_20170827_0036.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0008_service_plugin_name.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0008_service_plugin_name.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_main_r.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_main_r.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/urls.py" afterPath="$PROJECT_DIR$/monitoring_control/users/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/urls.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/email/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/email/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/monitor/top.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/monitor/top.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/apps.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/apps.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/migrations/0002_auto_20170826_0027.py" afterPath="$PROJECT_DIR$/monitoring_control/users/migrations/0002_auto_20170826_0027.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/linux/MegaSAS.log" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/linux/MegaSAS.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/css/main.css" afterPath="$PROJECT_DIR$/monitoring_control/static/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/dump.rdb" afterPath="$PROJECT_DIR$/monitoring_control/dump.rdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/windows/GetWindowsSysInfo.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/windows/GetWindowsSysInfo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/logs/linux_run_log" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/logs/linux_run_log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/monitor/main.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/monitor/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/var/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/var/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/linux_mem.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/linux_mem.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/Controller/redis_conn.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/Controller/redis_conn.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/models.py" afterPath="$PROJECT_DIR$/monitoring_control/users/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/password/zip_crack.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/password/zip_crack.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_main_c.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_main_c.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/utils/sendEmail.py" afterPath="$PROJECT_DIR$/monitoring_control/users/utils/sendEmail.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/tests.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0006_auto_20170828_1826.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0006_auto_20170828_1826.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/migrations/0003_auto_20170826_2206.py" afterPath="$PROJECT_DIR$/monitoring_control/users/migrations/0003_auto_20170826_2206.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0002_actionoperation_notifiers.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0002_actionoperation_notifiers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitoring_control/urls.py" afterPath="$PROJECT_DIR$/monitoring_control/monitoring_control/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0004_auto_20171030_2111.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0004_auto_20171030_2111.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_botton.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_botton.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/admin.py" afterPath="$PROJECT_DIR$/monitoring_control/users/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_login_name.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_login_name.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_login_password.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_login_password.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_login_re.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_login_re.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_main_c.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_main_c.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_main_l.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_main_l.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_main_r.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_main_r.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_top_c.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_top_c.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_top_l.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_top_l.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_top_r.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_top_r.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/monitor/left/module6bg.png" afterPath="$PROJECT_DIR$/monitoring_control/static/images/monitor/left/module6bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/monitor/left/user_main_c.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/monitor/left/user_main_c.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/monitor/top/about_nav_bg.jpg" afterPath="$PROJECT_DIR$/monitoring_control/static/images/monitor/top/about_nav_bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/monitoring_control/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/.idea/misc.xml" afterPath="$PROJECT_DIR$/monitoring_control/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/.idea/modules.xml" afterPath="$PROJECT_DIR$/monitoring_control/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/.idea/monitoring_control.iml" afterPath="$PROJECT_DIR$/monitoring_control/.idea/monitoring_control.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/.idea/preferred-vcs.xml" afterPath="$PROJECT_DIR$/monitoring_control/.idea/preferred-vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/.idea/workspace.xml" afterPath="$PROJECT_DIR$/monitoring_control/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/Controller/create_asset.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/Controller/create_asset.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/Controller/date_encoder.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/Controller/date_encoder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/admin.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/apps.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/forms.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0002_auto_20171030_2049.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0002_auto_20171030_2049.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0003_auto_20171030_2056.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0003_auto_20171030_2056.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0004_auto_20171030_2111.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0004_auto_20171030_2111.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0005_auto_20171030_2121.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0005_auto_20171030_2121.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0006_auto_20171115_1916.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0006_auto_20171115_1916.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0007_auto_20171115_1917.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0007_auto_20171115_1917.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0008_auto_20171118_1037.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/0008_auto_20171118_1037.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/migrations/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/models.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/page_urls.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/page_urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/rest_urls.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/rest_urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/tests.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/urls.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb/views.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/bin/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/bin/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/bin/cmdb_client.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/bin/cmdb_client.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/conf/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/conf/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/conf/settings.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/conf/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/core/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/core/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/core/api_token.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/core/api_token.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/core/client.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/core/client.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/core/info_collection.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/core/info_collection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/logs/linux_run_log" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/logs/linux_run_log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/logs/windows_run_log" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/logs/windows_run_log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/linux/GetLinuxSysInfo.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/linux/GetLinuxSysInfo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/linux/MegaSAS.log" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/linux/MegaSAS.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/linux/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/linux/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/plugin_api.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/plugin_api.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/windows/GetWindowsSysInfo.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/windows/GetWindowsSysInfo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/windows/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/windows/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/var/.asset_id" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/var/.asset_id" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/var/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/var/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/dump.rdb" afterPath="$PROJECT_DIR$/monitoring_control/dump.rdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/manage.py" afterPath="$PROJECT_DIR$/monitoring_control/manage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/Controller/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/Controller/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/Controller/data_optimization.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/Controller/data_optimization.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/Controller/data_processing.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/Controller/data_processing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/Controller/redis_conn.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/Controller/redis_conn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/Controller/trigger_handler.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/Controller/trigger_handler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/admin.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/apps.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/forms.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0002_actionoperation_notifiers.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0002_actionoperation_notifiers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0003_auto_20170827_0036.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0003_auto_20170827_0036.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0004_auto_20170827_0039.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0004_auto_20170827_0039.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0005_auto_20170827_0105.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0005_auto_20170827_0105.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0006_auto_20170828_1826.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0006_auto_20170828_1826.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0007_auto_20170828_1938.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0007_auto_20170828_1938.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0008_service_plugin_name.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0008_service_plugin_name.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0009_action_recover_message.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0009_action_recover_message.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0010_auto_20170831_0107.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0010_auto_20170831_0107.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0011_auto_20170901_1951.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0011_auto_20170901_1951.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0012_auto_20171020_2303.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0012_auto_20171020_2303.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0013_auto_20171020_2312.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/0013_auto_20171020_2312.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/migrations/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/migrations/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/models.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/page_urls.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/page_urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/rest_urls.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/rest_urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/tests.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/urls.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor/views.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/misc.xml" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/modules.xml" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/monitor_client.iml" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/monitor_client.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/bin/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/bin/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/bin/monitor_client.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/bin/monitor_client.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/conf/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/conf/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/conf/settings.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/conf/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/core/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/core/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/core/client.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/core/client.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/core/main.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/core/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/network.txt" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/network.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/files/network.txt" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/files/network.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/linux_cpu.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/linux_cpu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/linux_mem.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/linux_mem.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/linux_network.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/linux_network.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/plugin_api.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/plugin_api.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/windows/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/windows/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/windows/windows_cpu.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/windows/windows_cpu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/windows/windows_network.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/plugins/windows/windows_network.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitor_client/var/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitor_client/var/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitoring_control/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/monitoring_control/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitoring_control/settings.py" afterPath="$PROJECT_DIR$/monitoring_control/monitoring_control/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitoring_control/urls.py" afterPath="$PROJECT_DIR$/monitoring_control/monitoring_control/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/monitoring_control/wsgi.py" afterPath="$PROJECT_DIR$/monitoring_control/monitoring_control/wsgi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/css/cmdb/left/left.css" afterPath="$PROJECT_DIR$/monitoring_control/static/css/cmdb/left/left.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/css/cmdb/new_asset_approval.css" afterPath="$PROJECT_DIR$/monitoring_control/static/css/cmdb/new_asset_approval.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/css/cmdb/query_asset/query_asset.css" afterPath="$PROJECT_DIR$/monitoring_control/static/css/cmdb/query_asset/query_asset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/css/cmdb/top/top.css" afterPath="$PROJECT_DIR$/monitoring_control/static/css/cmdb/top/top.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/css/login/User_Login.css" afterPath="$PROJECT_DIR$/monitoring_control/static/css/login/User_Login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/css/main.css" afterPath="$PROJECT_DIR$/monitoring_control/static/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/css/monitor/index.css" afterPath="$PROJECT_DIR$/monitoring_control/static/css/monitor/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/css/monitor/left/left.css" afterPath="$PROJECT_DIR$/monitoring_control/static/css/monitor/left/left.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/js/cmdb/query_asset.js" afterPath="$PROJECT_DIR$/monitoring_control/static/js/cmdb/query_asset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/js/jquery-migrate-1.2.1.min.js" afterPath="$PROJECT_DIR$/monitoring_control/static/js/jquery-migrate-1.2.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/js/jquery.min.js" afterPath="$PROJECT_DIR$/monitoring_control/static/js/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/cmdb/control.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/cmdb/control.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/cmdb/left.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/cmdb/left.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/cmdb/main.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/cmdb/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/cmdb/new_asset_approval.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/cmdb/new_asset_approval.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/cmdb/query_asset_detail.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/cmdb/query_asset_detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/cmdb/query_assets.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/cmdb/query_assets.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/cmdb/top.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/cmdb/top.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/index.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/login.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/main.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/monitor/control.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/monitor/control.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/monitor/left.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/monitor/left.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/monitor/main.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/monitor/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/monitor/news.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/monitor/news.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/monitor/top.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/monitor/top.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/email/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/email/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/email/mail.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/email/mail.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/log/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/log/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/log/make_log.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/log/make_log.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/log/settings.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/log/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/password/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/password/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/password/ssh_crack.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/password/ssh_crack.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/password/zip_crack.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/password/zip_crack.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/variables/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/variables/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/variables/time_var.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/variables/time_var.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/video/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/video/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/video/collection.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/video/collection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/users/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/admin.py" afterPath="$PROJECT_DIR$/monitoring_control/users/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/apps.py" afterPath="$PROJECT_DIR$/monitoring_control/users/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/forms.py" afterPath="$PROJECT_DIR$/monitoring_control/users/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/monitoring_control/users/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/migrations/0002_auto_20170826_0027.py" afterPath="$PROJECT_DIR$/monitoring_control/users/migrations/0002_auto_20170826_0027.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/migrations/0003_auto_20170826_2206.py" afterPath="$PROJECT_DIR$/monitoring_control/users/migrations/0003_auto_20170826_2206.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/migrations/0004_remove_userprofile_name.py" afterPath="$PROJECT_DIR$/monitoring_control/users/migrations/0004_remove_userprofile_name.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/migrations/0005_auto_20170826_2209.py" afterPath="$PROJECT_DIR$/monitoring_control/users/migrations/0005_auto_20170826_2209.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/migrations/0006_auto_20171029_1036.py" afterPath="$PROJECT_DIR$/monitoring_control/users/migrations/0006_auto_20171029_1036.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/migrations/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/users/migrations/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/models.py" afterPath="$PROJECT_DIR$/monitoring_control/users/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/tests.py" afterPath="$PROJECT_DIR$/monitoring_control/users/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/urls.py" afterPath="$PROJECT_DIR$/monitoring_control/users/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/utils/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/users/utils/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/utils/sendEmail.py" afterPath="$PROJECT_DIR$/monitoring_control/users/utils/sendEmail.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/utils/sendEmail.py___jb_tmp___" afterPath="$PROJECT_DIR$/monitoring_control/users/utils/sendEmail.py___jb_tmp___" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/users/views.py" afterPath="$PROJECT_DIR$/monitoring_control/users/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -188,15 +208,51 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/cmdb/views.py">
+    <leaf>
+      <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
+        <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor_client/core/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="784">
+              <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+                <marker date="1511667548380" expanded="true" signature="3583:3957" ph="..." />
+                <marker date="1511667548380" expanded="true" signature="3600:3897" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="32" column="58" lean-forward="true" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data_optimization.py" pinned="false" current-in-tab="false">
+        <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor/Controller/data_optimization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1160">
+              <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+              <folding>
+                <element signature="e#26#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitoring_control/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="170" column="26" lean-forward="true" selection-start-line="170" selection-start-column="26" selection-end-line="170" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -209,14 +265,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/monitoring_control/cmdb/Controller/core.py" />
-        <option value="$PROJECT_DIR$/monitoring_control/cmdb/Controller/create_asset.py" />
-        <option value="$PROJECT_DIR$/monitoring_control/cmdb/views.py" />
-        <option value="$PROJECT_DIR$/monitoring_control/users/models.py" />
-        <option value="$PROJECT_DIR$/monitoring_control/monitoring_control/settings.py" />
-        <option value="$PROJECT_DIR$/monitoring_control/cmdb/admin.py" />
-        <option value="$PROJECT_DIR$/monitoring_control/users/admin.py" />
-        <option value="$PROJECT_DIR$/monitoring_control/cmdb/Controller/utils.py" />
+        <option value="$PROJECT_DIR$/monitoring_control/monitor/urls.py" />
+        <option value="$PROJECT_DIR$/monitoring_control/monitor_client/conf/settings.py" />
+        <option value="$PROJECT_DIR$/monitoring_control/monitor/Controller/monitorControll.py" />
+        <option value="$PROJECT_DIR$/monitoring_control/monitor_client/core/client.py" />
+        <option value="$PROJECT_DIR$/monitoring_control/monitor/Controller/trigger_handler.py" />
+        <option value="$PROJECT_DIR$/monitoring_control/monitor/views.py" />
+        <option value="$PROJECT_DIR$/monitoring_control/monitor/Controller/data_optimization.py" />
       </list>
     </option>
   </component>
@@ -231,9 +286,6 @@
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="723" />
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -250,7 +302,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -291,7 +342,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
+              <option name="myItemId" value="monitoring_control" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,29 +360,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin.py" />
-              <option name="myItemType" value="com.jetbrains.python.projectView.PyFileNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cmdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cmdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitoring_control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cmdb_client" />
+              <option name="myItemId" value="monitor_client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,7 +378,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cmdb_client" />
+              <option name="myItemId" value="monitor_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitoring_control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitor_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="linux" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitoring_control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitor_client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -371,7 +448,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="monitor_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client.py" />
+              <option name="myItemType" value="com.jetbrains.python.projectView.PyFileNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="cmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitoring_control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitor_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -389,7 +496,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="monitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views.py" />
+              <option name="myItemType" value="com.jetbrains.python.projectView.PyFileNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataReport" />
+              <option name="myItemType" value="com.jetbrains.python.projectView.PyElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="cmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitoring_control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views.py" />
+              <option name="myItemType" value="com.jetbrains.python.projectView.PyFileNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitoring_control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitoring_control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -397,18 +570,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitoring_control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_optimization.py" />
+              <option name="myItemType" value="com.jetbrains.python.projectView.PyFileNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStore" />
+              <option name="myItemType" value="com.jetbrains.python.projectView.PyElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -500,12 +703,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -631,11 +828,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="38a6df8e-5e45-4094-86f8-590fe1709f53" name="Default" comment="" />
-      <created>1511005541481</created>
+      <changelist id="ee3dad5f-cf20-4bfe-8621-0224128ea50e" name="Default" comment="" />
+      <created>1511675370458</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1511005541481</updated>
+      <updated>1511675370458</updated>
     </task>
     <servers />
   </component>
@@ -643,22 +840,22 @@
     <frame x="-8" y="-8" width="1382" height="723" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17397882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18683812" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -674,98 +871,168 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/cmdb/models.py" />
-    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/cmdb/Controller/core.py" />
-    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/monitoring_control/settings.py" />
-    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/templates/cmdb/control.html" />
-    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/cmdb/models.py" />
-    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/cmdb/Controller/create_asset.py" />
-    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/cmdb/views.py" />
-    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/cmdb/Controller/utils.py" />
-    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/cmdb_client/core/info_collection.py" />
-    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/cmdb_client/core/api_token.py" />
-    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/cmdb_client/core/client.py" />
-    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/users/models.py" />
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/users/models.py">
+    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/cmdb/Controller/create_asset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/cmdb/Controller/check_token.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor/page_urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor_client/bin/monitor_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor/rest_urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#26#67#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor_client/core/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:$PROJECT_DIR$/../..//C:/Program Files/Python35/Lib/traceback.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1904">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="e#72#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor_client/plugins/linux/linux_network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor_client/core/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+            <marker date="1511667548380" expanded="true" signature="3583:3957" ph="..." />
+            <marker date="1511667548380" expanded="true" signature="3600:3897" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor_client/conf/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor/Controller/redis_conn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor/Controller/monitor_ctl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor/Controller/data_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#26#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor/Controller/trigger_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#26#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitoring_control/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="123" column="25" lean-forward="true" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
+        <state relative-caret-position="432">
+          <caret line="170" column="26" lean-forward="true" selection-start-line="170" selection-start-column="26" selection-end-line="170" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/cmdb/admin.py">
+    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor/Controller/data_optimization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+        <state relative-caret-position="1160">
+          <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#26#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/cmdb_client/core/client.py">
+    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/cmdb_client/core/api_token.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding>
-            <element signature="e#26#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/users/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="47" column="31" lean-forward="true" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/cmdb/Controller/create_asset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/cmdb/Controller/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
-          <folding>
-            <element signature="e#26#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/cmdb/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="292">
+          <caret line="32" column="58" lean-forward="true" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
