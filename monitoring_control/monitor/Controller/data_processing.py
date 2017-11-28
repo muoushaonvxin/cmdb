@@ -2,18 +2,19 @@
 import time
 from .redis_conn import redis_conn
 import json
+from monitoring_control import settings
 
 class DataHandler(object):
 
-    def __init__(self, django_settings, connect_redis=True):
-        self.django_settings = django_settings
+    def __init__(self, connect_redis=True):
+        self.django_settings = settings
         self.poll_interval = 0,5
         self.config_update_interval = 120
         self.config_last_loading_time = time.time()
         self.global_monitor_dic = {}
         self.exit_flag = False
         if connect_redis:
-            self.redis = redis_conn(self.django_settings)
+            self.redis = redis_conn()
 
 
     def looping(self):

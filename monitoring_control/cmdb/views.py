@@ -82,6 +82,7 @@ class QueryAsset(View):
 		asset_list = Asset.objects.all()
 		return render(request, 'cmdb/query_assets.html', {'asset_list': asset_list})
 
+
 class QueryAssetDetailBySn(View):
 	def get(self, request):
 		asset = request.GET.get("sn", "")
@@ -114,8 +115,12 @@ class QueryAssetDetailBySn(View):
 			return HttpResponse(json.dumps(e), content_type="application/json")
 
 
-
-
+class DeleteAssetDetailBySn(View):
+	def post(self, request):
+		asset = request.POST.get("sn", "")
+		if Asset.objects.get(sn=asset).delete():
+			return HttpResponse(json.dumps({"status": "success"}), content_type="application/json")
+		return HttpResponse(json.dumps({"status": "error"}), content_type="application/json")
 
 
 

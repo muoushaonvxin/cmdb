@@ -15,7 +15,6 @@ class DataStore(object):
 		self.redis_conn_obj = redis_obj
 		self.process_and_save()
 
-
 	def process_and_save(self):
 		print("\033[42;1m---service data-----------------------\033[0m")
 		if self.data['status'] == 0:
@@ -26,11 +25,13 @@ class DataStore(object):
 				last_point_from_redis = self.redis_conn_obj.lrange(data_series_key_in_redis, -1, -1)
 				if not last_point_from_redis:
 					self.redis_conn_obj.rpush(data_series_key_in_redis, json.dumps([None, time.time()]))
-				if data_series_val[0] == 0:
+
+				if data_series_val[0] == 0:  # latest_data
 					self.redis_conn_obj.rpush(data_series_key_in_redis, json.dumps(self.data, time.time()))
 				else:
+					# 最后一次存储的数据，最后一次存储的事件
 					last_point_data, last_point_save_time = json.loads(self.redis_conn_obj.lrange(data_series_key_in_redis, -1, -1)[0].decode())
-
+					# 当前时间减去最后一次存储时间大于存储事件
 					if time.time() - last_point_save_time >= data_series_val[0]:
 						lastest_data_key_in_redis = "StatusData_%s_%s_latest" % (self.client_ip, self.service_name)
 
@@ -50,7 +51,6 @@ class DataStore(object):
 			print("report data is invalid:;", self.data)
 			raise ValueError
 
-
 	def get_data_slice(self, lastest_data_key, optimization_interval):
 		all_real_data = self.redis_conn_obj.lrange(lastest_data_key, 1, -1)
 		data_set = []
@@ -65,7 +65,6 @@ class DataStore(object):
 					pass
 
 		return data_set
-
 
 	def get_optimized_data(self, data_set_key, raw_service_data):
 
@@ -132,13 +131,11 @@ class DataStore(object):
 	def save_optimized_data(self, data_series_key_in_redis, optimized_data):
 		self.redis_conn_obj.rpush(data_series_key_in_redis, json.dumps([optimized_data, time.time()]))
 
-
 	def get_average(self, data_set):
 		if len(data_set) > 0:
 			return sum(data_set) / len(data_set)
 		else:
 			return 0
-
 
 	def get_max(self, data_set):
 		if len(data_set) > 0:
@@ -146,13 +143,11 @@ class DataStore(object):
 		else:
 			return 0
 
-
 	def get_min(self, data_set):
 		if len(data_set) > 0:
 			return min(data_set)
 		else:
 			return 0
-
 
 	def get_mid(self, data_set):
 		data_set.sort()

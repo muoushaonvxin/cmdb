@@ -8,6 +8,9 @@ REDIS_CONN = {
 }
 
 def redis_conn():
-	pool = redis.ConnectionPool(host=REDIS_CONN['HOST'], port=REDIS_CONN['PORT'], db=REDIS_CONN['DB'])
+	pool = redis.ConnectionPool(host=REDIS_CONN['HOST'],
+								port=REDIS_CONN['PORT'],
+								db=REDIS_CONN['DB']
+								)
 	r = redis.Redis(connection_pool=pool)
 	return r

@@ -36,7 +36,7 @@ class GetTrigger(object):
         self.host_obj = host_obj
         self.trigger_configs = []
 
-    def get_trigger(self):
+    def get_host_trigger(self):
         for template in self.host_obj.templates.select_related():
             self.trigger_configs.extend(template.triggers.select_related())
         for group in self.host_obj.host_groups.select_related():
