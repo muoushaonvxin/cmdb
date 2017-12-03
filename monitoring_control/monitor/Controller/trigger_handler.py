@@ -5,6 +5,7 @@ from monitoring_control import settings
 from monitor.models import EventLog, Trigger
 from django.core.mail import send_mail
 
+
 class TriggerHandler(object):
 
 	def __init__(self):
