@@ -8,6 +8,8 @@
 
 <body>
     <table class="size_asset_record">
+
+        <th class="size_asset_field">资产编号</th>
         <th class="size_asset_field">资产类型</th>
         <th class="size_asset_field">资产名称</th>
         <th class="size_asset_field">资产sn号</th>
@@ -16,12 +18,16 @@
 
         {% for asset in asset_list %}
             <tr>
+                <td class="size_asset_field_content">{{ asset.id }}</td>
                 <td class="size_asset_field_content">{{ asset.asset_type }}</td>
                 <td class="size_asset_field_content">{{ asset.name }}</td>
                 <td class="size_asset_field_content">{{ asset.sn }}</td>
                 <td class="size_asset_field_content">{{ asset.manufactory }}</td>
                 <td class="size_asset_field_content">
                     <input type="button" value="详细信息" onclick="query_asset_by_sn(this);" />
+                </td>
+                <td class="size_asset_field_content">
+                    <input type="button" value="删除资产" onclick="delete_asset_by_sn(this);" />
                 </td>
             </tr>
         {% endfor %}

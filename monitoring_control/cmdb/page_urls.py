@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-from .views import CmdbView, QueryAsset, QueryAssetDetailBySn
+from .views import CmdbView, QueryAsset, QueryAssetDetailBySn, DeleteAssetBySn
 from django.conf.urls import url, include
 from django.views.generic import TemplateView
 
@@ -24,4 +24,7 @@ urlpatterns = [
 
 	# 跳转资产详细信息
 	url(r'^query_asset_detail/$', TemplateView.as_view(template_name="cmdb/query_asset_detail.html")),
+
+	# 根据sn号删除资产
+	url(r'^delete_asset/$', DeleteAssetBySn.as_view()),
 ]

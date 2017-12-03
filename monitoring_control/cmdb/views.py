@@ -115,9 +115,11 @@ class QueryAssetDetailBySn(View):
 			return HttpResponse(json.dumps(e), content_type="application/json")
 
 
-class DeleteAssetDetailBySn(View):
+# 根据sn号删除对应资产
+class DeleteAssetBySn(View):
 	def post(self, request):
 		asset = request.POST.get("sn", "")
+
 		if Asset.objects.get(sn=asset).delete():
 			return HttpResponse(json.dumps({"status": "success"}), content_type="application/json")
 		return HttpResponse(json.dumps({"status": "error"}), content_type="application/json")

@@ -20,14 +20,14 @@ def SendMail(send_email, send_subject, send_mailtext):
 	    "mailencoding": "utf-8",
     }
 
-	smtp = SMTP_SSL(mailInfo["hostname"])
-	smtp.set_debuglevel(1)
-	smtp.ehlo(mailInfo["hostname"])
-	smtp.login(mailInfo["username"],mailInfo["password"])
+    smtp = SMTP_SSL(mailInfo["hostname"])
+    smtp.set_debuglevel(1)
+    smtp.ehlo(mailInfo["hostname"])
+    smtp.login(mailInfo["username"],mailInfo["password"])
 
-	msg = MIMEText(mailInfo["mailtext"], "text", mailInfo["mailencoding"])
-	msg["Subject"] = Header(mailInfo["mailsubject"], mailInfo["mailencoding"])
-	msg["from"] = mailInfo["from"]
-	msg["to"] = mailInfo["to"]
-	smtp.sendmail(mailInfo["from"], mailInfo["to"], msg.as_string())
-	smtp.quit()
+    msg = MIMEText(mailInfo["mailtext"], "text", mailInfo["mailencoding"])
+    msg["Subject"] = Header(mailInfo["mailsubject"], mailInfo["mailencoding"])
+    msg["from"] = mailInfo["from"]
+    msg["to"] = mailInfo["to"]
+    smtp.sendmail(mailInfo["from"], mailInfo["to"], msg.as_string())
+    smtp.quit()

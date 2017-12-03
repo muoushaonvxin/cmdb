@@ -155,14 +155,13 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
+# redis 数据库连接配置
 REDIS_CONN = {
-    'HOST': 'localhost',
-    'PORT': 6379,
-    'PASSWD': '',
-    'DB': 10,
+	'HOST': '8.8.8.128',
+	'PORT': 6379,
+	'DB': 0,
 }
 
-TRIGGER_CHAN = 'trigger_event_channel'
 
 STATUS_DATA_OPTIMIZATION = {
     'latest': [0, 600],
@@ -173,3 +172,4 @@ STATUS_DATA_OPTIMIZATION = {
 
 REPORT_LATE_TOLERANCE_TIME = 10
 
+TRIGGER_CHAN = 'trigger_event_channel'

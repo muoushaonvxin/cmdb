@@ -1,7 +1,10 @@
 # -*- encoding: utf-8 -*-
 import time
+import operator
+import pickle
 from .redis_conn import redis_conn
 import json
+from monitor.models import Host
 from monitoring_control import settings
 
 class DataHandler(object):
@@ -50,15 +53,74 @@ class DataHandler(object):
             time.sleep(self.poll_interval)
 
 
+    def data_point_validation(self, host_obj, service_obj):
+        service_redis_key = "StatusData_%s_%s_latest" % (host_obj.ip_addr, service_obj.name)
+        latest_data_point = self.redis.lrange(service_redis_key, -1, -1)
+        if latest_data_point:
+            latest_data_point = json.loads(latest_data_point[0])
+            print("\033[1m;latest_data_point\033[0m %s" % latest_data_point)
+            latest_service_data, last_report_time = latest_data_point
+            monitor_interval = service_obj.interval + self.django_settings.REPORT_LATE_TOLERANCE_TIME
+            if time.time() - last_report_time > monitor_interval:
+                no_data_secs = time.time() - last_report_time
+                msg = '''Some thing must be wrong with client [%s], because haven't receive data of service [%s] \
+                for [%s]s (interval is %s)\033[0m''' % (host_obj.ip_addr, service_obj.name, no_data_secs, monitor_interval)
+                self.trigger_notifier(host_obj=host_obj, trigger_id=None, positive_expressions=None, msg=msg)
+
+                print("\033[41;1m%s\033[0m" % msg)
+                if service_obj.name == "uptime":
+                    host_obj.status = 3
+                    host_obj.save()
+                else:
+                    host_obj.status = 5
+                    host_obj.save()
+        else:
+            print("\033[41;1mno data for service [%s] host [%s] at all..\033[0m" % (service_obj.name, host_obj.name))
+            msg = '''no data for service [%s] host [%s] at all..''' % (service_obj.name, host_obj.name)
+            self.trigger_notifier(host_obj=host_obj, trigger_id=None, positive_expressions=None, msg=msg)
+            host_obj.status = 5
+            host_obj.save()
+
+
+    def load_service_data_and_calulating(self, host_obj, trigger_obj, redis_obj):
+        self.redis = redis_obj
+        calc_sub_res_list = []
+        positive_expressions = []
+        expression_res_string = ''
+        for expression in trigger_obj.triggerexpression_set.select_related().order_by('id'):
+            print(expression,expression.logic_type)
+            expression_process_obj = ExpressionProcess(self,host_obj, expression)
+            single_expression_res = expression_process_obj.process()
+            if single_expression_res:
+                calc_sub_res_list.append(single_expression_res)
+                if single_expression_res['expression_obj'].logic_type:
+                    expression_res_string += str(single_expression_res['calc_res']) + ' ' + \
+                                             single_expression_res['expression_obj'].logic_type + ' '
+                else:
+                    expression_res_string += str(single_expression_res['calc_res']) + ' '
+
+                if single_expression_res['calc_res'] == True:
+                    single_expression_res['expression_obj'] = single_expression_res['expression_obj']
+                    positive_expressions.append(single_expression_res)
+
+        print("whole trigger res:", trigger_obj.name, expression_res_string)
+        if expression_res_string:
+            trigger_res = eval(expression_res_string)
+            print("whole trigger res:", trigger_res)
+            if trigger_res:
+                print("############# trigger alert:", trigger_obj.severity, trigger_res)
+                self.trigger_notifier(host_obj, trigger_obj.id, positive_expressions, trigger_obj.name)
+
+
     def update_or_load_configs(self):
-        all_enabled_hosts = models.Host.objects.all()
+        all_enabled_hosts = Host.objects.all()
         for h in all_enabled_hosts:
             if h not in self.global_monitor_dic:
                 self.global_monitor_dic[h] = {'services': {}, 'triggers': {}}
 
+            service_list = []
+            trigger_list = []
             for group in h.host_groups.select_related():
-                service_list = []
-                trigger_list = []
                 for template in group.templates.select_related():
                     service_list.extend(template.services.select_related())
                     trigger_list.extend(template.triggers.select_related())
@@ -66,7 +128,7 @@ class DataHandler(object):
                     if service.id not in self.global_monitor_dic[h]['services']:
                         self.global_monitor_dic[h]['services'][service.id] = [service, 0]
                     else:
-                        self.global_monitor_dic[h]['services'][service_id][0] = service
+                        self.global_monitor_dic[h]['services'][service.id][0] = service
                 for trigger in trigger_list:
                     self.global_monitor_dic[h]['triggers'][trigger.id] = trigger
 
@@ -85,50 +147,14 @@ class DataHandler(object):
 
             self.global_monitor_dic[h].setdefault('status_last_check', time.time())
 
+        self.config_last_loading_time = time.time()
+        return True
 
-
-
-
-    def data_point_validation(self, host_obj, service_obj):
-        service_redis_key = "StatusData_%s_%s_latest" % (host_obj.ip_addr, service_obj.name)
-        latest_data_point = self.redis.lrange(service_redis_key, -1, -1)
-        if latest_data_point:
-            latest_data_point = json.loads(latest_data_point[0])
-            print("\033[1m;latest_data_point\033[0m %s" % latest_data_point)
-            latest_service_data, last_report_time = latest_data_point
-            monitor_interval = service_obj.interval + self.django_settings.REPORT_LATE_TOLERANCE_TIME
-            if time.time() - last_report_time > monitor_interval:
-                no_data_secs = time.time() - last_report_time
-                msg = '''Some thing must be wrong with client [%s], because haven't receive data of service [%s] \
-                 ''' 
-
-
-    def load_service_data_and_calulating(self, host_obj, trigger_obj, redis_obj):
-        self.redis = redis_obj
-        calc_sub_res_list = []
-        positive_expressions = []
-        expression_res_string = ''
-        for expression in trigger_obj.triggerexpression_set.select_related().order_by('id'):
-            print(expression,expression.logic_type)
-            exprpession_process_obj = ExpressionProcess(self,host_obj, expression)
-            single_expression_res = expression_process_obj.process()
-            if single_expression_res:
-                calc_sub_res_list.append(single_expression_res)
-                if single_expression_res['expression_obj'].logic_type:
-                    expression_res_string += str(single_expression_res['calc_res']) + ' ' + \
-                                             single_expression_res['expression_obj'].logic_type + ' '
-                else:
-                    expression_res_string += str(single_expression_res['calc_res']) + ' '
-
-                if single_expression_res['calc_res'] == True:
-                    single_expression_res['expression_obj'] = single_expression_res['expression_obj']
-                    positive_expressions.append(single_expression_res)
-                    
 
     def trigger_notifier(self, host_obj, trigger_id, positive_expressions, redis_obj=None, msg=None):
         if redis_obj:
             self.redis = redis_obj
-        print("\033[43;logoing to send alert msg...........\033[0m")
+        print("\033[43;1mgoing to send alert msg...........\033[0m")
         print('trigger_notifier argv', host_obj, trigger_id, positive_expressions, redis_obj)
 
         msg_dic = {
@@ -149,10 +175,11 @@ class DataHandler(object):
             trigger_startime = json.loads(old_trigger_data)['start_time']
             msg_dic['start_time'] = trigger_startime
             msg_dic['deration'] = round(time.time() - trigger_startime)
+        self.redis.set(trigger_redis_key, json.dumps(msg_dic), 300)
 
-        self.redis_set(trigger_redis_key, json.dumps(msg_dic), 300)
 
 class ExpressionProcess(object):
+
 
     def __init__(self, main_ins, host_obj, expression_obj, specified_item):
         self.host_obj = host_obj
@@ -161,26 +188,6 @@ class ExpressionProcess(object):
         self.service_redis_key = "StatusData_%s_%s_latest" % (host_obj.ip_addr, expression_obj.service.name)
         self.time_range = self.expression_obj.data_calc_args.split(',')[0]
         print("\033[1m ------------> %s\033[0m" % self.service_redis_key)
-
-
-    def process(self):
-        data = self.load_data_from_redis()
-        data_calc_func = getattr(self, 'get_%s' % self.expression_obj.data_calc_func)
-        single_expression_calc_res = data_calc_fun(data)
-        print("--- res of single_expression_calc_res", single_expression_calc_res)
-        if single_expression_calc_res:
-            res_dic = {
-                'calc_res': single_expression_calc_res[0],
-                'calc_res_val': single_expression_calc_res[1],
-                'expression_obj': self.expression_obj,
-                'service_item': single_expression_calc_res[2],
-            }
-
-            # print("\033[41;1mmsingle_expression_calc_res: %s\033[0m" % )
-            return res_dic
-        else:
-            return False
-
 
 
     def load_data_from_redis(self):
@@ -198,6 +205,24 @@ class ExpressionProcess(object):
         print(data_range)
         return data_range
 
+
+    def process(self):
+        data = self.load_data_from_redis()
+        data_calc_func = getattr(self, 'get_%s' % self.expression_obj.data_calc_func)
+        single_expression_calc_res = data_calc_func(data)
+        print("--- res of single_expression_calc_res", single_expression_calc_res)
+        if single_expression_calc_res:
+            res_dic = {
+                'calc_res': single_expression_calc_res[0],
+                'calc_res_val': single_expression_calc_res[1],
+                'expression_obj': self.expression_obj,
+                'service_item': single_expression_calc_res[2],
+            }
+
+            print("\033[41;1msingle_expression_calc_res: %s\033[0m" % single_expression_calc_res)
+            return res_dic
+        else:
+            return False
 
 
     def get_avg(self, data_set):
@@ -220,8 +245,9 @@ class ExpressionProcess(object):
             clean_data_list = [float(i) for i in clean_data_list]
             avg_res = sum(clean_data_list) / len(clean_data_list)
             print("\033[46;1m ----- avg res: %s\033[0m" % avg_res)
-            return [self.judge(avg_res), avg_res, None]
             print("clean_data_list: ", clean_data_list)
+            return [self.judge(avg_res), avg_res, None]
+
         elif clean_data_dic:
             for k, v in clean_data_dic.items():
                 clean_v_list = [float(i) for i in v]
@@ -235,9 +261,18 @@ class ExpressionProcess(object):
                                                                self.judge(avg_res),
                                                                )
                         calc_res = self.judge(avg_res)
-
-
-
+                        if calc_res:
+                            return [calc_res, avg_res, k]
+                else:
+                    calc_res = self.judge(avg_res)
+                    if calc_res:
+                        return [calc_res, avg_res, k]
+                print("specified monitor key:", self.expression_obj.specified_index_key)
+                print("clean data dic:", k, len(clean_v_list), clean_v_list)
+            else:
+                return [False, avg_res, k]
+        else:
+            return [False, None, None]
 
 
     def judge(self, calculated_val):
@@ -247,22 +282,5 @@ class ExpressionProcess(object):
 
     def get_hit(self, data_set):
         pass
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
