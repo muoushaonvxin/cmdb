@@ -6,6 +6,6 @@ configs = {
         'get_configs': ['monitor/api/client/config', 'get'],
         'service_report': ['monitor/api/client/service/report/', 'post'],
     },
-    'RequestTimeout': 30,
+    'request_timeout': 30,
     'ConfigUpdateInterval': 300,
 }

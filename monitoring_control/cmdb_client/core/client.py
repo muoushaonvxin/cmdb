@@ -86,7 +86,7 @@ class ClientHandler(object):
 					callback = req_data.read()
 					print("----> server response: ", callback)
 					return callback
-				except urllib.error as e:
+				except requests.RequestException as e:
 					sys.exit("\033[31;1m%s\033[0m" % e)
 
 			elif method == "post":

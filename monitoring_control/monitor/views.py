@@ -8,14 +8,16 @@ from users.models import UserProfile
 # Create your views here.
 
 class ClientConfig(View):
+
     def get(self, request, client_ip):
-        client_obj = monitor_ctl.ClientHandler(client_ip)
+        client_obj = monitor_ctl.ClientMonitorConfig(client_ip)
         client_config = client_obj.fetch_configs()
         if client_config:
             return HttpResponse(json.dumps(client_config), content_type="application/json")
 
 
 class DataReport(View):
+
     def post(self, request):
         print(request.POST)
 

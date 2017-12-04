@@ -59,6 +59,6 @@ class ManagementUtility(object):
         pass
 
 
-def execute_from_command_line(self):
+def execute_from_command_line(argv=None):
     utility = ManagementUtility(argv)
     utility.execute()

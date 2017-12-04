@@ -7,30 +7,20 @@ import json
 
 class ClientHandlers(object):
 
+
     def __init__(self):
         self.monitor_services = {}
 
 
-    def load_latest_config(self):
-        """
-        加载最新的配置信息
-        :return:
-        """
-        request_type = settings.configs["urls"]["get_configs"][1]
-        request_url = "%s/%s" % (settings.configs["urls"]["get_configs"][0], settings.configs["HostIP"])
-        latest_config = self.url_request(request_type, request_url)
-        latest_config = json.loads(latest_config)
-        self.monitor_services.update(latest_config)
-
-
     def forever_run(self):
         exit_flag = False
-        config_lastest_update_time = 0
+        config_latest_update_time = 0
+
         while not exit_flag:
-            if time.time() - config_lastest_update_time > settings.configs["ConfigUpdateInterval"]:
+            if time.time() - config_latest_update_time > settings.configs["ConfigUpdateInterval"]:
                 self.load_latest_config()
                 print("Latest_config:", self.monitor_services)
-                config_lastest_update_time = time.time()
+                config_latest_update_time = time.time()
 
             for service_name, val in self.monitor_services["services"].items():
                 if len(val) == 2:
@@ -50,6 +40,17 @@ class ClientHandlers(object):
                     time.sleep(1)
 
 
+    def load_latest_config(self):
+        '''
+        从服务端获取最新的监控配置
+        '''
+        request_type = settings.configs["urls"]["get_configs"][1]
+        request_url = "%s/%s" % (settings.configs["urls"]["get_configs"][0], settings.configs["HostIP"])
+        latest_config = self.url_request(request_type, request_url)
+        latest_config = json.loads(latest_config)
+        self.monitor_services.update(latest_config)
+
+
     def invoke_plugin(self, service_name, val):
         # 获取插件名称
         plugin_name = val[0]
@@ -67,8 +68,8 @@ class ClientHandlers(object):
             request_action = settings.configs["urls"]["service_report"][1]
             request_url = settings.configs["urls"]["service_report"][0]
             self.url_request(request_action, request_url, params=report_data)
-
-        print("\033[31mCannot find service [%s]' plugin name [%s] in plugin_api\033[0m" % (service_name, plugin_name))
+        else:
+            print("\033[31mCannot find service [%s]' plugin name [%s] in plugin_api\033[0m" % (service_name, plugin_name))
 
 
     def url_request(self, action, request_url, **extra_data):
@@ -81,7 +82,7 @@ class ClientHandlers(object):
 
         if action in ('get', "GET"):
             try:
-                r = requests.get(abs_url, timeout=settings.configs["RequestTimeout"])
+                r = requests.get(abs_url, timeout=settings.configs["request_timeout"])
                 r_data = r.json()
                 return r_data
             except requests.RequestException as e:
@@ -90,7 +91,8 @@ class ClientHandlers(object):
         elif action in ('post', 'POST'):
             try:
                 data = json.dumps(extra_data['params'])
-                r = requests.post(url=abs_url, data=extra_data["params"])
+                # r = requests.post(url=abs_url, data=extra_data["params"])
+                r = requests.post(url=abs_url, data=data)
                 r_data = r.json()
                 print("\033[31;1m[%s]:[%s]\033[0m response:\n%s,%s" % (action, abs_url, r_data, data))
                 return r_data
