@@ -1,5 +1,6 @@
 # -*- encoding: utf-8 -*-
-from .views import CmdbView, QueryAsset, QueryAssetDetailBySn, DeleteAssetBySn
+from .asset_views import QueryAsset, QueryAssetDetailBySn, DeleteAssetBySn
+from .views import CmdbView
 from django.conf.urls import url, include
 from django.views.generic import TemplateView
 

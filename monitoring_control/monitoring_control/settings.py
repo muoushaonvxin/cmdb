@@ -155,13 +155,14 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
+
 # redis 数据库连接配置
+
 REDIS_CONN = {
 	'HOST': '8.8.8.128',
 	'PORT': 6379,
 	'DB': 0,
 }
-
 
 STATUS_DATA_OPTIMIZATION = {
     'latest': [0, 600],
