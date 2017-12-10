@@ -18,6 +18,7 @@ sys.path.insert(0, os.path.join(BASE_DIR, 'users'))
 sys.path.insert(0, os.path.join(BASE_DIR, 'monitor'))
 sys.path.insert(0, os.path.join(BASE_DIR, 'monitor_client'))
 sys.path.insert(0, os.path.join(BASE_DIR, 'monitor_client/core'))
+sys.path.insert(0, os.path.join(BASE_DIR, 'webchat'))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -46,6 +47,7 @@ INSTALLED_APPS = [
     'users',
     'monitor',
     'cmdb',
+    'webchat',
     # 'captcha',
 ]
 

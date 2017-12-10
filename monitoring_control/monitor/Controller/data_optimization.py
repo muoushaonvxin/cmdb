@@ -39,9 +39,7 @@ class DataStore(object):
 					# 当前时间减去最后一次存储时间大于存储事件
 					if time.time() - last_point_save_time >= data_series_val[0]:
 						lastest_data_key_in_redis = "StatusData_%s_%s_latest" % (self.client_ip, self.service_name)
-
 						print("calulating data for key:\033[31;1m%s\033[0m" % data_series_key_in_redis)
-
 						data_set = self.get_data_slice(lastest_data_key_in_redis, data_series_val[0])
 
 						print('-------------------------------len dataset: ', len(data_set))

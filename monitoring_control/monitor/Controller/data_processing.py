@@ -9,6 +9,7 @@ from monitoring_control import settings
 
 class DataHandler(object):
 
+
     def __init__(self, connect_redis=True):
         self.django_settings = settings
         self.poll_interval = 0,5
@@ -89,7 +90,7 @@ class DataHandler(object):
         expression_res_string = ''
         for expression in trigger_obj.triggerexpression_set.select_related().order_by('id'):
             print(expression,expression.logic_type)
-            expression_process_obj = ExpressionProcess(self,host_obj, expression)
+            expression_process_obj = ExpressionProcess(self.host_obj, expression)
             single_expression_res = expression_process_obj.process()
             if single_expression_res:
                 calc_sub_res_list.append(single_expression_res)
@@ -181,7 +182,7 @@ class DataHandler(object):
 class ExpressionProcess(object):
 
 
-    def __init__(self, main_ins, host_obj, expression_obj, specified_item):
+    def __init__(self, host_obj, expression_obj, main_ins, specified_item):
         self.host_obj = host_obj
         self.expression_obj = expression_obj
         self.main_ins = main_ins

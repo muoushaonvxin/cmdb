@@ -16,6 +16,7 @@ class UserProfile(AbstractUser):
     memo = models.TextField(verbose_name='备注', blank=True, null=True, default=None)
     date_joined = models.DateTimeField(blank=True, null=True, auto_now_add=True)
     image = models.ImageField(upload_to="image/%Y/%m", default=u"image/default.png", max_length=100, verbose_name=u"个人图像")
+    friends = models.ManyToManyField('self', related_name=u"my_friends", blank=True)
     user_type = models.IntegerField(default=0, verbose_name=u"用户类型", choices=((0, u"普通用户"), (1, u"管理员")))
     add_time = models.DateTimeField(default=datetime.now, verbose_name=u"添加时间")
 
