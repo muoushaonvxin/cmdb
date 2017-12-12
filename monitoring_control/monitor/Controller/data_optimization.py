@@ -32,7 +32,7 @@ class DataStore(object):
 
 				# latest_data 代表是一个最新额数据不需要优化,直接进行存储
 				if data_series_val[0] == 0:
-					self.redis_conn_obj.rpush(data_series_key_in_redis, json.dumps(self.data, time.time()))
+					self.redis_conn_obj.rpush(data_series_key_in_redis, json.dumps([self.data, time.time()]))
 				else:
 					# 最后一次存储的数据，最后一次存储的事件
 					last_point_data, last_point_save_time = json.loads(self.redis_conn_obj.lrange(data_series_key_in_redis, -1, -1)[0].decode())

@@ -90,7 +90,7 @@ class DataHandler(object):
         expression_res_string = ''
         for expression in trigger_obj.triggerexpression_set.select_related().order_by('id'):
             print(expression,expression.logic_type)
-            expression_process_obj = ExpressionProcess(self.host_obj, expression)
+            expression_process_obj = ExpressionProcess(self, host_obj, expression)
             single_expression_res = expression_process_obj.process()
             if single_expression_res:
                 calc_sub_res_list.append(single_expression_res)
@@ -182,7 +182,7 @@ class DataHandler(object):
 class ExpressionProcess(object):
 
 
-    def __init__(self, host_obj, expression_obj, main_ins, specified_item):
+    def __init__(self, main_ins, host_obj, expression_obj, specified_item):
         self.host_obj = host_obj
         self.expression_obj = expression_obj
         self.main_ins = main_ins
@@ -212,6 +212,7 @@ class ExpressionProcess(object):
         data_calc_func = getattr(self, 'get_%s' % self.expression_obj.data_calc_func)
         single_expression_calc_res = data_calc_func(data)
         print("--- res of single_expression_calc_res", single_expression_calc_res)
+
         if single_expression_calc_res:
             res_dic = {
                 'calc_res': single_expression_calc_res[0],

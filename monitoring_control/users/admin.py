@@ -48,9 +48,8 @@ class UserProfileAdmin(UserAdmin):
 	add_form = UserCreationForm
 
 	list_display = ('id', 'email', 'is_active')
-	# list_filter = ('is_admin',)
 	fieldsets = (
-		(None, {'fields': ('email', 'password')}),
+		(None, {'fields': ('email', 'password', 'friends')}),
 		('Personal info', {'fields': ()}),
 		('API TOKEN info', {'fields': ('token',)}),
 		('Permissions', {'fields': ('token',)}),
@@ -60,7 +59,7 @@ class UserProfileAdmin(UserAdmin):
 	add_fieldsets = (
 		(None, {
 			'classes': ('wide',),
-			'fields': ('email', 'password1', 'password2', 'is_active', 'is_admin')}
+			'fields': ('email', 'password1', 'password2', 'is_active', 'friends')}
 		),
 	)
 

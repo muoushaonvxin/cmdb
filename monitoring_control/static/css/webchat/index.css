@@ -1,0 +1,30 @@
+.main {
+    margin: 0px auto;
+    width: 75%;
+    height: 600px;
+    border: 1px solid aqua;
+    background-color: blanchedalmond;
+}
+
+.left-set {
+    width: 18%;
+    height: 600px;
+    border: 0px solid red;
+    background-color: #CCFF99;
+    float: left;
+}
+
+.title-set {
+    width: 82%;
+    height: 50px;
+    background-color: azure;
+    float: right;
+}
+
+.under-set {
+    width: 82%;
+    height: 100px;
+    background-color: lightpink;
+    float: right;
+    margin-top: 450px;
+}

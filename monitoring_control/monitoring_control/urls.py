@@ -20,6 +20,7 @@ from users.views import LoginView, LogoutView
 from users.views import IndexView
 from monitor import urls as monitor_url
 from cmdb import urls as cmdb_url
+from webchat import urls as webchat_url
 
 
 urlpatterns = [
@@ -43,6 +44,9 @@ urlpatterns = [
 
     # 监控url
     url(r'^monitor/', include(monitor_url), name="monitor"),
+
+    # 聊天功能
+    url(r'^webchat/', include(webchat_url), name="webchat"),
 ]
 
 
