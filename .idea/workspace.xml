@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7806d43a-f102-456a-86f6-b69aac2500ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring_control/static/css/webchat/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring_control/templates/webchat/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring_control/webchat/page_urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring_control/webchat/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/linux/MegaCli" afterPath="$PROJECT_DIR$/monitoring_control/cmdb_client/plugins/linux/MegaCli" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/cmdb/left/user_main_c.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/cmdb/left/user_main_c.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/images/login/user_all_bg.gif" afterPath="$PROJECT_DIR$/monitoring_control/static/images/login/user_all_bg.gif" />
@@ -150,6 +146,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/css/main.css" afterPath="$PROJECT_DIR$/monitoring_control/static/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/css/monitor/index.css" afterPath="$PROJECT_DIR$/monitoring_control/static/css/monitor/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/css/monitor/left/left.css" afterPath="$PROJECT_DIR$/monitoring_control/static/css/monitor/left/left.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/css/webchat/index.css" afterPath="$PROJECT_DIR$/monitoring_control/static/css/webchat/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/js/cmdb/query_asset.js" afterPath="$PROJECT_DIR$/monitoring_control/static/js/cmdb/query_asset.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/js/jquery-2.2.4.js" afterPath="$PROJECT_DIR$/monitoring_control/static/js/jquery-2.2.4.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/static/js/jquery-migrate-1.2.1.min.js" afterPath="$PROJECT_DIR$/monitoring_control/static/js/jquery-migrate-1.2.1.min.js" />
@@ -169,6 +166,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/monitor/main.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/monitor/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/monitor/news.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/monitor/news.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/monitor/top.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/monitor/top.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/templates/webchat/index.html" afterPath="$PROJECT_DIR$/monitoring_control/templates/webchat/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/email/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/email/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/tools/email/mail.py" afterPath="$PROJECT_DIR$/monitoring_control/tools/email/mail.py" />
@@ -206,7 +204,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/webchat/apps.py" afterPath="$PROJECT_DIR$/monitoring_control/webchat/apps.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/webchat/migrations/__init__.py" afterPath="$PROJECT_DIR$/monitoring_control/webchat/migrations/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/webchat/models.py" afterPath="$PROJECT_DIR$/monitoring_control/webchat/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/webchat/page_urls.py" afterPath="$PROJECT_DIR$/monitoring_control/webchat/page_urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/webchat/tests.py" afterPath="$PROJECT_DIR$/monitoring_control/webchat/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/webchat/urls.py" afterPath="$PROJECT_DIR$/monitoring_control/webchat/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring_control/webchat/views.py" afterPath="$PROJECT_DIR$/monitoring_control/webchat/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -222,23 +222,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/webchat/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/templates/webchat/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="140">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -247,8 +235,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/static/css/webchat/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="322">
+              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -312,7 +300,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -760,11 +747,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../salt" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -866,6 +854,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -1003,7 +997,7 @@
     <frame x="-8" y="-8" width="1382" height="723" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17927383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1034,168 +1028,36 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor/Controller/data_optimization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-          <folding>
-            <element signature="e#26#65#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/users/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/users/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitoring_control/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor/Controller/data_processing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2268">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="e#26#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/users/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/users/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/webchat/page_urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#652#693#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/webchat/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="e#652#693#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitor/page_urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#26#67#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/monitoring_control/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="39" column="69" lean-forward="true" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
-          <folding>
-            <element signature="e#652#693#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="65" lean-forward="true" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/webchat/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/monitor/Controller/data_optimization.py" />
+    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/users/apps.py" />
+    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/users/tests.py" />
+    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/monitoring_control/settings.py" />
+    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/monitor/Controller/data_processing.py" />
+    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/monitor/views.py" />
+    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/users/admin.py" />
+    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/users/models.py" />
+    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/webchat/page_urls.py" />
+    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/webchat/urls.py" />
+    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/monitor/urls.py" />
+    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/monitor/page_urls.py" />
+    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/monitoring_control/urls.py" />
+    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/templates/main.html" />
+    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/templates/index.html" />
+    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/webchat/models.py" />
+    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/templates/webchat/index.html" />
+    <entry file="file:$PROJECT_DIR$/../../8.8.8.128/cmdb/monitoring_control/static/css/webchat/index.css" />
     <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/templates/webchat/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="140">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/static/css/webchat/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="322">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="13" />
           <folding />
         </state>
       </provider>
