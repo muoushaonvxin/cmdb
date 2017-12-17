@@ -16,10 +16,14 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 from django.views.generic import TemplateView
-from webchat import page_urls
+from webchat import page_urls, rest_urls
 
 urlpatterns = [
+    # 返回页面视图
     url(r'page/', include(page_urls), name="page"),
+
+    # 接受前端逻辑
+    url(r'logic/', include(rest_urls), name="logic"),
 ]
 
 

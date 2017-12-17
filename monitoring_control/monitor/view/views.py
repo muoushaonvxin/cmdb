@@ -1,8 +1,8 @@
 from django.shortcuts import render, HttpResponse
 from django.views.generic import View
 import json
-from .Controller import monitor_ctl, redis_conn, data_optimization, data_processing
-from .models import Host
+from monitor.Controller import monitor_ctl, redis_conn, data_optimization, data_processing
+from monitor.models import Host
 from users.models import UserProfile
 
 # Create your views here.

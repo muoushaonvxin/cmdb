@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+{% load staticfiles %}
 <head>
     <meta charset="UTF-8">
     <title>webchat</title>
@@ -7,20 +8,67 @@
 </head>
 <body>
     <div class="main">
-        <div class="left-set"></div>
 
-        <div class="title-set"></div>
+        <div class="left-set">
+            <div class="contact-person" onclick="getUserFriend();">当前联系人</div>
+            <div class="contact-group">群组</div>
 
-        <div class="dialog-set"></div>
+            <div class="black-box1" id="content">
 
-        <div class="util-set"></div>
-
-        <div class="under-set">
-            <div class="msg_set"></div>
-            <div class="send_msg">
-                <div class="send_button">发送</div>
             </div>
         </div>
+
+        <div class="title-set" contact-id="" contact-type="">
+            adfadsf
+        </div>
+
+        <div class="dialog-set">
+
+        </div>
+
+        <div class="util-set">
+
+        </div>
+
+        <div class="under-set">
+            <div class="msg_set">
+                <textarea name="" id="" cols="92" rows="7" style="height: 94%;">
+                    adfadsfasdf
+                </textarea>
+            </div>
+            <div class="send_msg">
+                <button class="send_button">发送</button>
+            </div>
+        </div>
+
     </div>
+
+
+    <div id="friend" style="display: none;">
+        {% if request.user.is_authenticated %}
+            {{ user.email }}
+        {% endif %}
+    </div>
+
+    <div id="username" style="display: none;">
+        {% if request.user.is_authenticated %}
+            {{ user.username }}
+        {% endif %}
+    </div>
+
+    <div id="id" style="display: none;">
+        {% if request.user.is_authenticated %}
+            {{ user.id }}
+        {% endif %}
+    </div>
+
+    <div id="group" style="display: none;">
+        {% if request.user.is_authenticated %}
+            {{ user.email }}
+        {% endif %}
+    </div>
+
 </body>
+<script type="text/javascript" src="/static/js/webchat/webchat.js"></script>
+<script type="text/javascript" src="/static/js/jquery-2.2.4.js"></script>
 </html>

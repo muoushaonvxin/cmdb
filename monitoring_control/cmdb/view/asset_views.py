@@ -4,9 +4,9 @@ __date__ = "2017/12/7 1:10"
 
 from django.shortcuts import render, HttpResponse
 from django.views.generic import View
-from .Controller import create_asset, check_token, date_encoder
-from .models import Asset, Server, CPU, Disk, RAM, NIC, RaidAdaptor, NetworkDevice
-from .models import NewAssetApprovalZone, Manufactory
+from cmdb.Controller import create_asset, check_token, date_encoder
+from cmdb.models import Asset, Server, CPU, Disk, RAM, NIC, RaidAdaptor, NetworkDevice
+from cmdb.models import NewAssetApprovalZone, Manufactory
 import json
 
 

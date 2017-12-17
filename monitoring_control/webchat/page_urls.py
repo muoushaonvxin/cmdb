@@ -16,10 +16,11 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 from django.views.generic import TemplateView
+from webchat.view.views import DashBoard
 
 
 urlpatterns = [
-    url(r'^index/$', TemplateView.as_view(template_name="webchat/index.html"),  name="index"),
+    url(r'^index/$', DashBoard.as_view(), name="index"),
 ]
 
 

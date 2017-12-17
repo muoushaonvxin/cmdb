@@ -1,11 +1,13 @@
 from django.shortcuts import render, HttpResponse, HttpResponseRedirect
-from .models import UserProfile, Banner
+from users.models import UserProfile, Banner
 from django.views import View
-from .forms import LoginForm
+from users.forms import LoginForm
 from django.contrib.auth import authenticate, login, logout
 from django.core.urlresolvers import reverse
 from django.db.models import Q
 from django.contrib.auth.backends import ModelBackend, RemoteUserBackend
+from django.contrib.auth.decorators import login_required
+
 # from django.contrib.auth.hashers import make_password
 # Create your views here.
 

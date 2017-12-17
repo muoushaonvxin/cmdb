@@ -1,5 +1,5 @@
 .main {
-    margin: 80px 100px 100px 150px;
+    margin: 0px 100px 100px 150px;
     width: 75%;
     height: 700px;
     border: 0px solid aqua;
@@ -14,6 +14,52 @@
     float: left;
 }
 
+.contact-person {
+    float: left;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.contact-group {
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.black-box1 {
+    width: 100%;
+    height: 95%;
+    margin: 33px 0px 0px 0px;
+    background-color: orange;
+    position: inherit;
+}
+
+.black-box1-content {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.current-message-person {
+    width: 94%;
+    height: 30px;
+    float: left;
+    border: 1px solid snow;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.current-message {
+    width: 30px;
+    height: 25px;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: dimgray;
+    border: 1px solid orange;
+    text-align: center;
+    border-radius: 220%;
+}
 
 .title-set {
     width: 100%;
@@ -22,9 +68,10 @@
 }
 
 .dialog-set {
-    width: 100%;
+    width: 82%;
     height: 73%;
     background-color: #CCFF99;
+    overflow: auto;  /* 内容多了自动加上滚动条 */
 }
 
 .util-set {
@@ -55,6 +102,12 @@
 
 .send_button {
     margin: 30px 0px 0px 55px;
-    width: 35px;
+    width: 45px;
     height: 30%;
+    border-radius: 30%;
+    border: 0px solid orange;
+}
+
+.msg_item {
+    margin-left: 10px;
 }

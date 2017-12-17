@@ -49,7 +49,7 @@ class UserProfileAdmin(UserAdmin):
 
 	list_display = ('id', 'email', 'is_active')
 	fieldsets = (
-		(None, {'fields': ('email', 'password', 'friends')}),
+		(None, {'fields': ('username', 'email', 'password', 'friends')}),
 		('Personal info', {'fields': ()}),
 		('API TOKEN info', {'fields': ('token',)}),
 		('Permissions', {'fields': ('token',)}),
@@ -59,12 +59,12 @@ class UserProfileAdmin(UserAdmin):
 	add_fieldsets = (
 		(None, {
 			'classes': ('wide',),
-			'fields': ('email', 'password1', 'password2', 'is_active', 'friends')}
+			'fields': ('username', 'email', 'password1', 'password2', 'is_active', 'friends')}
 		),
 	)
 
-	search_fields = ('email',)
-	ordering = ('email',)
+	search_fields = ('email', 'username')
+	ordering = ('email', 'username')
 	filter_horizontal = ()
 
 class EmailVerifyRecordAdmin(admin.ModelAdmin):

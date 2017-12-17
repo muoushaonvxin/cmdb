@@ -16,8 +16,8 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 from django.views.generic import TemplateView
-from users.views import LoginView, LogoutView
-from users.views import IndexView
+from users.view.views import LoginView, LogoutView
+from users.view.views import IndexView
 from monitor import urls as monitor_url
 from cmdb import urls as cmdb_url
 from webchat import urls as webchat_url

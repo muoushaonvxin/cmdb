@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 from django.conf.urls import url, include
-from .views import ClientConfig, DataReport
+from monitor.view.views import ClientConfig, DataReport
 
 urlpatterns = [
     # 客户端通过将自己的ip地址汇报过来，获取需要被监控的配置
