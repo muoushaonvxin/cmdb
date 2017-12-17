@@ -232,8 +232,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/templates/webchat/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="60" column="25" lean-forward="true" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+            <state relative-caret-position="672">
+              <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#textarea#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -245,11 +245,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webchat.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/static/css/webchat/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webchat.js" pinned="false" current-in-tab="false">
         <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/static/js/webchat/webchat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="292">
+              <caret line="97" column="53" lean-forward="true" selection-start-line="97" selection-start-column="53" selection-end-line="97" selection-end-column="53" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -284,8 +294,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/webchat/view/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="67" column="16" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+            <state relative-caret-position="224">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -332,11 +342,11 @@
         <option value="$PROJECT_DIR$/monitoring_control/monitoring_control/urls.py" />
         <option value="$PROJECT_DIR$/monitoring_control/cmdb/page_urls.py" />
         <option value="$PROJECT_DIR$/monitoring_control/monitoring_control/settings.py" />
-        <option value="$PROJECT_DIR$/monitoring_control/static/css/webchat/index.css" />
-        <option value="$PROJECT_DIR$/monitoring_control/templates/webchat/index.html" />
         <option value="$PROJECT_DIR$/monitoring_control/webchat/rest_urls.py" />
         <option value="$PROJECT_DIR$/monitoring_control/webchat/view/views.py" />
         <option value="$PROJECT_DIR$/monitoring_control/static/js/webchat/webchat.js" />
+        <option value="$PROJECT_DIR$/monitoring_control/templates/webchat/index.html" />
+        <option value="$PROJECT_DIR$/monitoring_control/static/css/webchat/index.css" />
       </list>
     </option>
   </component>
@@ -469,6 +479,36 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="views.py" />
               <option name="myItemType" value="com.jetbrains.python.projectView.PyFileNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitoring_control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webchat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views.py" />
+              <option name="myItemType" value="com.jetbrains.python.projectView.PyFileNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GetNewMsgs" />
+              <option name="myItemType" value="com.jetbrains.python.projectView.PyElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1067,7 +1107,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="723" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="723" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1785174" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1155,32 +1195,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/static/css/webchat/index.css">
+    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/webchat/rest_urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/templates/webchat/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="60" column="25" lean-forward="true" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+        <state relative-caret-position="224">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="21" />
           <folding>
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#80#121#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/webchat/view/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="67" column="16" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+        <state relative-caret-position="224">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -1197,23 +1225,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/webchat/rest_urls.py">
+    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/templates/webchat/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="672">
+          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
-            <element signature="e#80#121#0" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/static/js/webchat/webchat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="292">
+          <caret line="97" column="53" lean-forward="true" selection-start-line="97" selection-start-column="53" selection-end-line="97" selection-end-column="53" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:$PROJECT_DIR$/../..//$PROJECT_DIR$/monitoring_control/static/css/webchat/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
