@@ -66,6 +66,7 @@
     height: 5%;
     background-color: red;
     text-align: center;
+    float: inherit;
 }
 
 .dialog-set {

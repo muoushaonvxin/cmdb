@@ -8,7 +8,7 @@
  */
 
 window.onload = function(){
-    getUserFriend();
+
 
     /*
     // 定时接受消息
@@ -17,6 +17,8 @@ window.onload = function(){
     }, 3000);
     */
 
+
+    // get msg
     GetNewMsgs();
 
     // send msg
@@ -31,8 +33,14 @@ window.onload = function(){
             $("textarea").val('');
         }
     });
-
 };
+
+
+var GLOBAL_CHAT_RECORD_DIC = {
+    'single' : {},
+    'group': {},
+};
+
 
 
 function trim(str){
@@ -93,11 +101,35 @@ function getUserFriend(){
                 var current_person_friend = document.getElementsByClassName('current-message-person');
                 for(var i in current_person_friend){
                     current_person_friend[i].onclick = function(){
-                        var chat_title = document.getElementsByClassName('title-set')[0];
+                        var contact_id = this.getAttribute("contact-id");
+                        var contact_type = this.getAttribute("contact-type");
+
+                        // 在切换之前把当前的聊天记录归档
+                        var current_session_id = this.getAttribute("contact-id");
+                        var current_session_type = this.getAttribute("contact-type");
+                        var inboxcontent = document.getElementsByClassName('dialog-set')[0].innerHTML;
+                        console.log("aaa: " + inboxcontent);
+
+                        if(current_session_id){
+                            GLOBAL_CHAT_RECORD_DIC[current_session_type][current_session_id] = inboxcontent;
+                            console.log(GLOBAL_CHAT_RECORD_DIC);
+                        }
+
                         var title = "正在跟" + this.childNodes[0].innerText + "聊天";
+                        var chat_title = document.getElementsByClassName('title-set')[0];
                         chat_title.innerText = title;
-                        chat_title.setAttribute("contact-id", this.getAttribute("contact-id"));
-                        chat_title.setAttribute("contact-type", this.getAttribute("contact-type"));
+                        chat_title.setAttribute("contact-id", contact_id);
+                        chat_title.setAttribute("contact-type", contact_type);
+
+                        var new_contact_chat_record = GLOBAL_CHAT_RECORD_DIC[contact_type][contact_id];
+                        console.log(typeof new_contact_chat_record);
+                        console.log(typeof contact_id);
+                        console.log("this value is:" + new_contact_chat_record + "this end");
+                        if(typeof new_contact_chat_record == "undefined"){
+                            new_contact_chat_record = '';
+                        }
+                        document.getElementsByClassName("dialog-set")[0].innerHTML = new_contact_chat_record;
+
                     };
                 }
             }
@@ -186,3 +218,8 @@ function GetNewMsgs(){
         }
     }
 }
+
+
+
+
+
