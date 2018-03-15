@@ -14,6 +14,7 @@ GLOBAL_MSG_QUEUE = {
 
 }
 
+
 class DashBoard(View):
     def get(self, request):
         return render(self.request, "webchat/index.html")

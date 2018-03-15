@@ -67,7 +67,7 @@ class NewAssetsApproval(View):
 
 # 资产管理页面
 
-class CmdbView(View):
+class Cmdb(View):
     def get(self, request):
         return render(request, "cmdb/control.html")
 

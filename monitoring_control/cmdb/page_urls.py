@@ -1,12 +1,12 @@
 # -*- encoding: utf-8 -*-
 from cmdb.view.asset_views import QueryAsset, QueryAssetDetailBySn, DeleteAssetBySn
-from cmdb.view.views import CmdbView
+from cmdb.view.views import Cmdb
 from django.conf.urls import url, include
 from django.views.generic import TemplateView
 
 
 urlpatterns = [
-    url(r'^control/$', CmdbView.as_view()),
+    url(r'^control/$', Cmdb.as_view()),
 
     # 监控 top 页面
 	url(r'^top/$', TemplateView.as_view(template_name="cmdb/top.html"), name="top"),

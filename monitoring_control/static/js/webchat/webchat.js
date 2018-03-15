@@ -33,6 +33,8 @@ window.onload = function(){
             $("textarea").val('');
         }
     });
+
+
 };
 
 
@@ -43,14 +45,14 @@ var GLOBAL_CHAT_RECORD_DIC = {
 
 
 
+/**
+ * 获取当前用户的好友
+ */
 function trim(str){
     return str.replace(/(^\s+)|(\s+$)/g, "");
 }
 
 
-/**
- * 获取当前用户的好友
- */
 function getUserFriend(){
     // 获取当前的用户
     var user = document.getElementById("friend").textContent;
@@ -101,6 +103,7 @@ function getUserFriend(){
                 var current_person_friend = document.getElementsByClassName('current-message-person');
                 for(var i in current_person_friend){
                     current_person_friend[i].onclick = function(){
+
                         var contact_id = this.getAttribute("contact-id");
                         var contact_type = this.getAttribute("contact-type");
 
@@ -108,12 +111,12 @@ function getUserFriend(){
                         var current_session_id = this.getAttribute("contact-id");
                         var current_session_type = this.getAttribute("contact-type");
                         var inboxcontent = document.getElementsByClassName('dialog-set')[0].innerHTML;
-                        console.log("aaa: " + inboxcontent);
 
-                        if(current_session_id){
-                            GLOBAL_CHAT_RECORD_DIC[current_session_type][current_session_id] = inboxcontent;
+                        if(current_session_id && inboxcontent.length == 0){
+                            GLOBAL_CHAT_RECORD_DIC[current_session_type][current_session_id] = '';
                             console.log(GLOBAL_CHAT_RECORD_DIC);
                         }
+                        GLOBAL_CHAT_RECORD_DIC[current_session_type][current_session_id] = inboxcontent;
 
                         var title = "正在跟" + this.childNodes[0].innerText + "聊天";
                         var chat_title = document.getElementsByClassName('title-set')[0];
@@ -122,8 +125,6 @@ function getUserFriend(){
                         chat_title.setAttribute("contact-type", contact_type);
 
                         var new_contact_chat_record = GLOBAL_CHAT_RECORD_DIC[contact_type][contact_id];
-                        console.log(typeof new_contact_chat_record);
-                        console.log(typeof contact_id);
                         console.log("this value is:" + new_contact_chat_record + "this end");
                         if(typeof new_contact_chat_record == "undefined"){
                             new_contact_chat_record = '';
